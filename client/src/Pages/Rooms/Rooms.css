@@ -1,0 +1,186 @@
+.roomsSec {
+  padding: 5rem 0rem;
+  background-color: #f8f5f0;
+}
+.textStart {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2rem;
+}
+.textStart .subtitle {
+  font-size: 15px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  color: #666;
+  text-transform: uppercase;
+  position: relative;
+  letter-spacing: 6px;
+  margin-bottom: 5px;
+}
+.textStart .title {
+  font-size: 45px;
+  font-family: "Gilda Display", serif;
+  font-weight: 400;
+  color: #222;
+  position: relative;
+  margin-bottom: 20px;
+  line-height: 1.25em;
+}
+.roomsRow {
+  gap: 0;
+  padding: 0rem 0rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.roomCard {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  overflow: hidden;
+  width: 350px;
+  height: 466px;
+}
+.roomsCol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+}
+.roomCard img {
+  width: 100%;
+  object-fit: cover;
+  transition: all 0.4s ease-in-out;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  text-align: start;
+  position: absolute;
+  box-sizing: border-box;
+  width: 100%;
+  color: white;
+  bottom: 30px;
+  padding: 0rem 1rem;
+  transition: all 0.4s ease-in-out;
+}
+.info h6 {
+  color: #fff;
+  font-size: 15px;
+  font-family: "Barlow Condensed", sans-serif;
+  display: inline;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin: 0;
+}
+.info h5 {
+  color: #fff;
+  font-size: 27px;
+  font-weight: 400;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.roomCard:hover .info {
+  bottom: 80px;
+}
+.roomCard .detailsBtn {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.roomCard .detailsBtn:hover {
+  transition: all 0.4s ease-in-out;
+  color: #aa8453;
+}
+.divider {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  text-align: start;
+  bottom: 23px;
+  left: 10px;
+  height: 1px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-top: 1px solid rgba(255, 255, 255, 0.2) !important;
+  transition: all 0.4s ease-in-out;
+}
+.roomCard:hover .divider {
+  width: 100%;
+  bottom: 68px;
+  right: 10px;
+}
+.intro {
+  height: 0px;
+  width: 350px;
+  padding: 0rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 0px;
+  color: white;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+}
+.intro span .icon {
+  color: #fff;
+  font-size: 18px;
+  margin-right: 10px;
+}
+.intro .linkk {
+  text-decoration: none;
+  color: #ffffff;
+  text-align: right;
+}
+.intro .linkk:hover {
+  transition: all 0.4s ease-in-out;
+  color: #aa8453;
+}
+.roomCard:hover {
+  cursor: pointer;
+}
+.roomCard:hover .intro {
+  height: 85px;
+  bottom: 0px;
+  opacity: 1;
+  visibility: visible;
+}
+.roomCard:hover img {
+  transition: all 0.8s ease-in-out;
+  -webkit-transform: scale(1.09, 1.09);
+  transform: scale(1.09, 1.09);
+  -webkit-filter: brightness(70%);
+}
+
+.card-header .linkk {
+  position: absolute;
+  z-index: 11;
+  top: 20px;
+  right: 20px;
+  z-index: 3;
+  writing-mode: vertical-rl;
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+  text-orientation: mixed;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  font-family: "Barlow Condensed", sans-serif;
+  padding: 10px 3px;
+  line-height: 1.5em;
+}

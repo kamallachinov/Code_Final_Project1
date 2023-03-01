@@ -1,0 +1,151 @@
+.aboutPageSec {
+  background-image: url(../../Assets/img/1.jpg);
+  padding: 120px 0;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 60vh;
+}
+.aboutPageSec .row .subtitle {
+  color: #fff;
+  font-size: 15px;
+  font-family: "Barlow Condensed", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  margin-bottom: 10px;
+}
+.aboutPageSec .row .title {
+  font-size: 60px;
+  color: #fff;
+  font-family: "Gilda Display", serif;
+  font-weight: 400;
+  line-height: 1.25em;
+  margin: 0 0 20px 0;
+}
+.aboutPageSec .LuxuryExperience {
+  min-height: 60vh;
+}
+.TeamMemberSec {
+  background-color: #f8f5f0;
+  padding: 5rem 0rem;
+}
+.TeamMemberSec .textCenter {
+  display: flex;
+  flex-direction: column;
+}
+.TeamMemberSec .textCenter .subtitle {
+  font-size: 15px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  color: #666;
+  text-transform: uppercase;
+  position: relative;
+  letter-spacing: 6px;
+  margin-bottom: 5px;
+}
+.TeamMemberSec .textCenter .title {
+  font-size: 45px;
+  font-family: "Gilda Display", serif;
+  font-weight: 400;
+  color: #222;
+  position: relative;
+  margin-bottom: 20px;
+  line-height: 1.25em;
+}
+/* CAROUSEL STYLES */
+/* .TeamMemberSec {
+  padding-left: 15rem;
+} */
+.TeamMemberSec .teamMember {
+  position: relative;
+  display: flex;
+  margin: 0;
+  overflow: hidden;
+  width: 410px;
+  height: 466.25px;
+  background-color: rgb(255, 255, 255);
+}
+.TeamMemberSec .teamMember img {
+  width: 100%;
+  object-fit: cover;
+  transition: all 0.4s ease-in-out;
+}
+.TeamMemberSec .teamMember .about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: absolute;
+  box-sizing: border-box;
+  width: 100%;
+  color: rgb(0, 0, 0);
+  bottom: 0;
+  padding: 30px 20px;
+  transition: all 0.4s ease-in-out;
+  background-color: rgb(255, 255, 255);
+}
+.TeamMemberSec .teamMember .about span {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #222;
+  font-family: "Gilda Display", serif;
+  font-weight: 400;
+  line-height: 1.25em;
+}
+.TeamMemberSec .teamMember .about h5 {
+  font-family: "Barlow", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.75em;
+  color: #666;
+  margin-bottom: 0px;
+}
+.TeamMemberSec .teamMember .socialAccs {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: -100px;
+  opacity: 0;
+  visibility: hidden;
+  background-color: white;
+  width: 100%;
+  padding: 30px 20px;
+  transition: 0.5s ease;
+}
+.TeamMemberSec .teamMember:hover .about {
+  opacity: 0;
+  visibility: hidden;
+}
+.TeamMemberSec .teamMember:hover .socialAccs {
+  opacity: 1;
+  visibility: visible;
+  bottom: 0;
+}
+.TeamMemberSec .teamMember .socialAccs p {
+  margin-bottom: 0px;
+  color: #666;
+  font-family: "Barlow", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.75em;
+}
+.TeamMemberSec .teamMember .socialAccs ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin-bottom: 8px;
+}
+.TeamMemberSec .teamMember .socialAccs ul li {
+  font-size: 18px;
+  color: #aa8453;
+  margin: 0 5px;
+  transition: 0.4s ease;
+}
+.TeamMemberSec .teamMember .socialAccs ul li:hover {
+  color: #222;
+}

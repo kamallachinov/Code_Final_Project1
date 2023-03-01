@@ -1,0 +1,60 @@
+.RoomDetailsPageForAdminPanel {
+  position: absolute;
+  right: 0;
+  width: 82%;
+  padding: 4rem 2rem;
+  background: rgb(1, 84, 117);
+  background: linear-gradient(
+    90deg,
+    rgba(1, 84, 117, 1) 26%,
+    rgba(35, 52, 102, 1) 62%
+  );
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.RoomDetailsPageForAdminPanel .cardForRoomDetails {
+  background: rgb(94, 7, 45);
+  background: radial-gradient(
+    circle,
+    rgb(70, 44, 189) 0%,
+    rgb(76, 114, 157) 100%
+  );
+  display: flex;
+  padding: 2rem 3rem;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  border-radius: 0.6rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.RoomDetailsPageForAdminPanel .cardForRoomDetails .imgContainerDiv img {
+  border-radius: 0.6rem;
+}
+.RoomDetailsPageForAdminPanel .cardForRoomDetails .infoAboutRoom h4 {
+  line-height: 1.75rem;
+  font-family: "Gilda Display", serif;
+  font-size: 22px;
+  font-weight: 600;
+}
+.RoomDetailsPageForAdminPanel
+  .cardForRoomDetails
+  .infoAboutRoom
+  .backToTableBtn {
+  background: rgb(77, 49, 61);
+  background: radial-gradient(
+    circle,
+    rgb(70, 44, 189) 0%,
+    rgba(57, 95, 143, 1) 100%
+  );
+  padding: 0.5rem 1rem;
+  border: 1px solid white;
+  border-radius: 0.4rem;
+  font-size: 18px;
+}
+.RoomDetailsPageForAdminPanel .cardForRoomDetails .infoAboutRoom .Linkk {
+  text-decoration: none;
+  color: white;
+}

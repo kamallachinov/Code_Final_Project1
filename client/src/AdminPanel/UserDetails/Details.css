@@ -1,0 +1,142 @@
+.detailsPageContainerForAdminPanel {
+  position: absolute;
+  right: 0;
+  width: 82%;
+  padding: 4rem 2rem;
+  background: rgb(1, 84, 117);
+  background: linear-gradient(
+    90deg,
+    rgba(1, 84, 117, 1) 26%,
+    rgba(35, 52, 102, 1) 62%
+  );
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.detailsPageContainerForAdminPanel .backToUsersTableBtn {
+  background-color: rgb(19, 17, 17);
+  border: 0;
+  color: white;
+  border-radius: 0.4rem;
+  padding: 0.5rem 0.75rem;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.detailsPageContainerForAdminPanel .backToUsersTableBtn .Link {
+  text-decoration: none;
+}
+.detailsPageContainerForAdminPanel .colText {
+  color: #bababa;
+  font-size: 21px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  line-height: 1.75rem;
+  font-family: "Gilda Display", serif;
+
+  font-weight: 600;
+}
+.detailsPageContainerForAdminPanel .rowDesc {
+  font-family: "Gilda Display", serif;
+
+  color: #2d22a0;
+  font-size: 19px;
+  line-height: 1.75rem;
+  font-weight: 600;
+}
+/* TABLE */
+.detailsPageContainerForAdminPanel .tableContainerDivforAdminPanelll {
+  /* background: rgb(19, 99, 129);
+  background: linear-gradient(
+    90deg,
+    rgba(19, 99, 129, 1) 20%,
+    rgba(37, 103, 82, 1) 67%
+  ); */
+  margin-top: 2rem;
+}
+.detailsPageContainerForAdminPanel .tableContainerDivforAdminPanelll .table {
+  background-color: #191c24;
+  opacity: 0.8;
+  border-radius: 0.5rem;
+  border-radius: 0;
+}
+.detailsPageContainerForAdminPanel .tableContainerDivforAdminPanelll .table th {
+  font-size: 19px;
+  line-height: 1.75rem;
+  font-weight: 600;
+}
+.detailsPageContainerForAdminPanel .tableContainerDivforAdminPanelll .table td {
+  font-size: 17px;
+  line-height: 1.2rem;
+  padding: 1.25rem 1rem;
+}
+.detailsPageContainerForAdminPanel .tableContainerDivforAdminPanelll .table td,
+th {
+  color: #98a4c4;
+
+  font-family: "Poppins", sans-serif;
+  font-family: "Gilda Display", serif;
+}
+.detailsPageContainerForAdminPanel
+  .tableContainerDivforAdminPanelll
+  .actionsContainer {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  gap: 5px;
+}
+.detailsPageContainerForAdminPanel
+  .tableContainerDivforAdminPanelll
+  .actionsContainer
+  .deleteBtn {
+  background-color: red;
+  border-radius: 0.4rem;
+  color: aliceblue;
+  padding: 0.5rem 0.5rem;
+  outline: none;
+  font-size: 16px;
+  line-height: 1rem;
+  border: 0;
+  font-family: "Poppins", sans-serif;
+}
+.detailsPageContainerForAdminPanel
+  .tableContainerDivforAdminPanelll
+  .actionsContainer
+  .editBtn {
+  background-color: #ffab00;
+  border-radius: 0.4rem;
+  color: aliceblue;
+  padding: 0.5rem 0.5rem;
+  outline: none;
+  font-size: 16px;
+  line-height: 1rem;
+  border: 0;
+  font-family: "Poppins", sans-serif;
+}
+.detailsPageContainerForAdminPanel
+  .tableContainerDivforAdminPanelll
+  .actionsContainer
+  .viewBtn {
+  background-color: #8f5fe8;
+  border-radius: 0.4rem;
+  color: aliceblue;
+  padding: 0.5rem 0.5rem;
+  outline: none;
+  font-size: 16px;
+  line-height: 1rem;
+  border: 0;
+  font-family: "Poppins", sans-serif;
+}
+.detailsPageContainerForAdminPanel .usersReservationText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 2rem;
+}
+.detailsPageContainerForAdminPanel .usersReservationText h4 {
+  font-size: 20px;
+  font-family: "Gilda Display", serif;
+}

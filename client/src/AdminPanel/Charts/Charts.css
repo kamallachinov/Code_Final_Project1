@@ -1,0 +1,98 @@
+.chartsContainerDivForAdminPanel {
+  position: absolute;
+  display: flex;
+
+  right: 0;
+  width: 82%;
+  padding: 4rem 2rem;
+  background: rgb(1, 84, 117);
+  background: linear-gradient(
+    90deg,
+    rgba(1, 84, 117, 1) 26%,
+    rgba(35, 52, 102, 1) 62%
+  );
+  height: auto;
+}
+.chartsContainerDivForAdminPanel .chartsContainer {
+  display: flex;
+  padding: 4rem 3rem;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-radius: 0.6rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.miniCardContainerForAdminPanel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff9800;
+  border-radius: 0.5rem;
+  padding: 2rem 2rem;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+.miniCardContainerForAdminPanel .icon {
+  font-size: 50px;
+  color: white;
+}
+.miniCardContainerForAdminPanel h4 {
+  font-size: 45px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 0.9rem;
+  margin-bottom: 0rem;
+}
+.miniCardContainerForAdminPanel p {
+  font-size: 28px;
+  color: white;
+}
+.socialCardContainerForAdminPanel {
+  background-color: white;
+  display: flex;
+  border-radius: 0.5rem;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.socialCardContainerForAdminPanel .social_icon_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3b5998;
+  color: white;
+  width: 50%;
+  padding: 1.5rem 1.5rem;
+  border-bottom-left-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+}
+.socialCardContainerForAdminPanel .social_icon_div .icon {
+  font-size: 50px;
+  color: #fff;
+}
+.social_cont_div {
+  width: 50%;
+  padding: 1.5rem 1.5rem;
+}
+.social_cont_div ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.social_cont_div ul li span {
+  font-size: 20px;
+}
+.social_cont_div ul li h5 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #455a64;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+.social_cont_div ul li span {
+  margin-bottom: 1rem;
+}

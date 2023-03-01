@@ -1,0 +1,130 @@
+.Img {
+  height: 100vh;
+}
+
+.centerDiv {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+span {
+  display: flex;
+  gap: 6px;
+}
+.icon {
+  color: #e4a853;
+  font-size: 18px;
+}
+h4 {
+  font-family: "Barlow Condensed", serif;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  color: #fff;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+}
+h1 {
+  margin-bottom: 20px;
+
+  font-family: "Gilda Display", serif;
+  font-size: 55px;
+  text-transform: uppercase;
+  line-height: 1.35em;
+  -webkit-animation-delay: 0.6s;
+  animation-delay: 0.6s;
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 15px;
+}
+
+.button {
+  font-weight: 400;
+  font-family: "Barlow Condensed", sans-serif;
+  text-transform: uppercase;
+  background: transparent;
+  color: #fff;
+  padding: 12px 20px;
+  margin: 0;
+  position: relative;
+  font-size: 15px;
+  letter-spacing: 3px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: inset 0 0 0 0 #fff;
+  -webkit-transition: ease-out 0.6s;
+  -moz-transition: ease-out 0.6s;
+  transition: ease-out 0.6s;
+}
+.slide_right:hover {
+  box-shadow: inset 400px 0 0 0 #fff;
+  color: #ab854f;
+  font-weight: 500;
+}
+@media screen and (max-width: 576px) {
+  /* .carousel {
+    position: relative;
+  }
+  .carousel .centerDiv .fadeInUp h4 {
+    font-size: 20px;
+  } */
+  h1 {
+    margin-bottom: 20px;
+    font-family: "Gilda Display", serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    line-height: 1.2em;
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 15px;
+  }
+  h4 {
+    font-family: "Barlow Condensed", serif;
+    font-size: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: #fff;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+  }
+}
+@media screen and (max-width: 768px) {
+  h1 {
+    margin-bottom: 20px;
+    font-family: "Gilda Display", serif;
+    font-size: 28px;
+    text-transform: uppercase;
+    line-height: 1.2em;
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 15px;
+  }
+  h4 {
+    font-family: "Barlow Condensed", serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: #fff;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+  }
+}

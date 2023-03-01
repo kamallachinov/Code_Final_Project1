@@ -1,0 +1,148 @@
+.ReservationFormSec {
+  padding: 5rem 0rem;
+  background-image: url(../../Assets/img/2.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+.ReservationFormSec .formDivContainer {
+  display: flex;
+  flex-direction: column;
+}
+.ReservationFormSec .formDivContainer h5 {
+  color: #fff;
+  font-size: 26px;
+  font-family: "Gilda Display", serif;
+  font-weight: 400;
+  line-height: 1.5em;
+  margin: 20px 0 25px 0;
+  max-width: 70%;
+}
+.ReservationFormSec .formDivContainer .reservationPhoneCall {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  margin: 1rem 0rem;
+}
+.ReservationFormSec .formDivContainer .reservationPhoneCall .phoneIcon {
+  color: #fff;
+  font-size: 40px;
+}
+.ReservationFormSec .formDivContainer .reservationPhoneCall div p {
+  font-size: 15px;
+  margin: 0;
+  color: #fff;
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  line-height: 26.25px;
+}
+.ReservationFormSec .formDivContainer .reservationPhoneCall .phoneNum {
+  font-size: 24px;
+  color: #fff;
+  font-family: "Barlow Condensed", sans-serif;
+  letter-spacing: 1px;
+}
+.ReservationFormSec .formDivContainer .footertext {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  margin-top: 0.3rem;
+  gap: 5px;
+}
+.ReservationFormSec .formDivContainer .footertext p {
+  font-size: 19px;
+  font-weight: 400;
+  color: #fff;
+  margin: 0;
+}
+.ReservationFormSec .formDivContainer .footertext .check {
+  font-size: 24px;
+  color: white;
+}
+.ReservationFormSec .formDiv {
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f5f0;
+  padding: 3rem 3rem;
+}
+.ReservationFormSec .textHeader {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: start;
+  align-items: start;
+}
+.ReservationFormSec .textHeader h6 {
+  font-size: 15px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  margin-bottom: 10px;
+}
+.ReservationFormSec .textHeader h4 {
+  font-family: "Gilda Display", serif;
+  font-size: 27px;
+  font-weight: 400;
+  color: #222;
+  border-bottom: 1px solid #ececec;
+  padding-bottom: 15px;
+  letter-spacing: 0;
+  text-transform: none;
+  margin-top: 0;
+}
+.ReservationFormSec .formContainer form {
+  display: flex;
+  flex-direction: column;
+}
+.ReservationFormSec .formContainer form input {
+  outline: none;
+  font-size: 16px;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  border-radius: 0.3rem;
+  margin-bottom: 1rem;
+}
+.ReservationFormSec .formContainer form button {
+  display: block;
+  padding: 0;
+  border: none;
+  margin: 0;
+  width: 100%;
+  background: #aa8453;
+  color: #fff;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  line-height: 62.5px;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  border-radius: 0.3rem;
+  margin-top: 1rem;
+}
+.brands {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem 0rem;
+}
+.brandDiv {
+  gap: 20px;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  flex-wrap: wrap;
+}
+.brandDiv img {
+  width: 191px;
+  height: 95px;
+  cursor: pointer;
+}

@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,200;0,300;0,400;1,300;1,400&family=Barlow:ital,wght@0,200;0,300;0,400;0,500;1,300;1,400&family=Epilogue:wght@300;400&family=Gilda+Display&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Martel:wght@400;600&family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;1,400&family=Open+Sans:wght@300;500&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&family=Roboto+Slab&display=swap");
+.tableContainerDivforAdminPanel {
+  position: absolute;
+  right: 0;
+  width: 82%;
+  padding: 4rem 2rem;
+  background: rgb(1, 84, 117);
+  background: linear-gradient(
+    90deg,
+    rgba(1, 84, 117, 1) 26%,
+    rgba(35, 52, 102, 1) 62%
+  );
+  height: 100%;
+}
+.tableContainerDivforAdminPanel .table {
+  background-color: #191c24b9;
+  opacity: 0.8;
+  border-radius: 0.5rem;
+}
+.tableContainerDivforAdminPanel .table tr {
+  text-align: center;
+}
+.tableContainerDivforAdminPanel .table th {
+  font-size: 19px;
+  line-height: 1.75rem;
+  font-weight: 600;
+  text-align: center;
+}
+.tableContainerDivforAdminPanel .table td {
+  font-size: 22px;
+  vertical-align: middle;
+  line-height: 1.2rem;
+  padding: 1.25rem 1rem;
+}
+.tableContainerDivforAdminPanel .table th {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+.someActionsContainerDiv input::placeholder {
+  color: rgb(145, 145, 145);
+}
+.someActionsContainerDiv input:focus {
+  color: #fff;
+}
+.tableContainerDivforAdminPanel .table td,
+th {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+.tableContainerDivforAdminPanel .actionsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 10px;
+}
+.tableContainerDivforAdminPanel .actionsContainer .deleteBtn {
+  background-color: red;
+  border-radius: 0.4rem;
+  color: rgb(255, 255, 255);
+  padding: 1rem 1.25rem;
+  outline: none;
+  font-size: 20px;
+  line-height: 1rem;
+  border: 0;
+  font-family: "Poppins", sans-serif;
+}
+.tableContainerDivforAdminPanel .actionsContainer .editBtn {
+  background-color: #ffab00;
+  border-radius: 0.4rem;
+  color: rgb(255, 255, 255);
+  padding: 1rem 1.25rem;
+  outline: none;
+  font-size: 20px;
+  line-height: 1rem;
+  border: 0;
+  font-family: "Poppins", sans-serif;
+}
+.tableContainerDivforAdminPanel .actionsContainer .viewBtn {
+  background-color: #8f5fe8;
+  border-radius: 0.4rem;
+  color: rgb(255, 255, 255);
+  padding: 1rem 1.25rem;
+  outline: none;
+  font-size: 20px;
+  line-height: 1rem;
+  border: 0;
+  font-family: "Poppins", sans-serif;
+}

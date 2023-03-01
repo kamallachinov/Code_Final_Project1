@@ -1,0 +1,120 @@
+.spaPageSec .carousel {
+  width: 100%;
+  height: 100vh;
+}
+.spaPageSec .textContainer {
+  padding: 5rem 0rem;
+}
+.spaImgContainer {
+  padding: 2rem 0rem;
+}
+.spaPageSec .textContainer p {
+  font-family: "Barlow", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.75em;
+  color: #666;
+}
+
+.spaPageSec .textContainer .reservation span {
+  font-size: 20px;
+  margin: 0;
+}
+.spaPageSec .col {
+  background-color: #f8f5f0;
+  width: 100%;
+}
+.spaPageSec .col div {
+  overflow: hidden;
+}
+.spaPageSec .col div .image {
+  width: 100%;
+  transition: all 0.5s ease-in-out;
+  overflow: hidden;
+}
+.spaPageSec .col:hover .image {
+  transition: all 0.8s ease-in-out;
+  transform: scale(1.09);
+}
+.spaPageSec .col .infoo {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  text-align: start;
+  flex-direction: column;
+  padding: 0rem 3rem;
+  height: 340px;
+}
+.spaPageSec .col .infoo h6 {
+  font-size: 15px;
+  letter-spacing: 3px;
+  color: #666;
+  font-family: "Barlow Condensed", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+.spaPageSec .col .infoo h4 {
+  margin: 0 0 10px 0;
+  font-size: 32px;
+  color: #222;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+.spaPageSec .col .infoo div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  font-family: "Barlow", sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 1.75em;
+  color: #666;
+  margin-bottom: 20px;
+}
+.spaPageSec .col .infoo div p {
+  margin: 0;
+}
+
+@media only screen and (max-width: 1080px) {
+  .spaPageSec .carousel {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* ACCARDION STYLES */
+.spaPageSec .accordionContainer {
+  padding: 5rem 0rem;
+  background-color: #f8f5f0;
+  margin-top: 2rem;
+}
+.spaPageSec .accordionContainer .textContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 0rem;
+}
+.spaPageSec .accordionContainer .accardion {
+  padding: 3rem 0rem;
+}
+.spaPageSec .accordionContainer .textContainer .subtitle {
+  font-size: 15px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  margin-bottom: 5px;
+}
+.spaPageSec .accordionContainer .textContainer .title {
+  font-size: 45px;
+  font-family: "Gilda Display", serif;
+  font-weight: 400;
+  color: #222;
+  position: relative;
+  margin-bottom: 20px;
+  line-height: 1.25em;
+}
+.spaPageSec .accordionContainer .accardionItem {
+  margin-bottom: 25px;
+}

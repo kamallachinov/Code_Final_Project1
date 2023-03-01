@@ -1,0 +1,120 @@
+.navbar {
+  position: fixed !important;
+  display: flex;
+  flex-wrap: wrap;
+  z-index: 100 !important;
+  top: 0 !important;
+  width: 100% !important;
+  background-color: white;
+  justify-content: space-around !important;
+  text-align: center;
+  align-items: center;
+  padding: 1rem 0rem !important;
+}
+.navbar .logo {
+  width: 160px;
+  margin-bottom: 0px;
+  cursor: pointer;
+}
+
+.navbar .list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  color: white;
+}
+.navbar .list li {
+  /* display: block; */
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #000000;
+  margin: 3px;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+.navbar .list li .Link {
+  text-decoration: none;
+  transition: all 0.4s;
+  color: #fff;
+}
+.navbar .list li .Link:hover {
+  color: #aa8453 !important;
+}
+.list li:hover {
+  color: #aa8453 !important;
+}
+.navbar .list li .item .Link {
+  color: rgb(0, 0, 0);
+}
+.navbar .list li .Link .iconn {
+  font-size: 20px;
+  color: #aa8453;
+}
+.navbar .list li .item:hover .Link {
+  color: #aa8453;
+  padding-left: 1rem;
+}
+
+#toggler,
+#label {
+  display: none;
+}
+.signUpText {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 400;
+  color: #000000;
+}
+.signUpText:hover {
+  color: #aa8453;
+}
+.logInText {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 400;
+  color: #000000;
+}
+.logInText:hover {
+  color: #aa8453;
+}
+.active {
+  color: #aa8453 !important;
+  text-decoration: none;
+}
+@media screen and (max-width: 991px) {
+  .menu {
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+    margin-top: 0.5rem;
+  }
+  .list {
+    flex-direction: column;
+    /* position: fixed;
+    width: 100%;
+    align-items: center; */
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(5, 5, 5);
+  }
+
+  #label {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    color: #fff;
+    font-size: 24px;
+  }
+  #toggler:checked ~ .menu {
+    max-height: 300px;
+  }
+}
+

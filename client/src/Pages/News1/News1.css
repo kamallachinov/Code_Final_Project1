@@ -1,0 +1,124 @@
+.news1Sec {
+  background-image: url(../../Assets/img/5.jpg);
+  padding: 120px 0;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 60vh;
+}
+.news1Sec .textCenter {
+  display: flex;
+  flex-direction: column;
+}
+.news1Sec .textCenter .subtitle {
+  font-size: 15px;
+  font-family: "Barlow Condensed", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+.news1Sec .textCenter .title {
+  font-family: "Gilda Display", serif;
+  font-weight: 400;
+  line-height: 1.25em;
+  margin: 0 0 20px 0;
+  color: #fff;
+  font-size: 70px;
+}
+.ourNewsDiv {
+  padding: 5rem 0rem;
+  background-color: #222;
+}
+.ourNewsDiv .col {
+  width: 100%;
+  width: 100%;
+  /* height: 380px; */
+}
+.ourNewsDiv .item {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  overflow: hidden;
+  width: 350px;
+  height: 466px;
+}
+.ourNewsDiv .item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: all 0.4s ease-in-out;
+}
+.ourNewsDiv .item .date {
+  display: inline-block;
+  flex-direction: column !important;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  color: #fff;
+  padding: 5px 10px;
+  text-align: center;
+}
+.ourNewsDiv .item .date span {
+  font-family: "Barlow Condensed", sans-serif;
+  display: block;
+  font-size: 12px;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #fff;
+}
+.ourNewsDiv .item .date p {
+  margin: 0;
+  font-family: "Barlow Condensed", sans-serif;
+  display: block;
+  font-size: 24px;
+  font-style: normal;
+  color: #fff;
+}
+.ourNewsDiv .item .about {
+  margin: -155px 20px 12px;
+  padding: 20px;
+  background-color: #f8f5f0 !important;
+  border: 1px solid #f8f5f0;
+  border-radius: 0;
+  overflow: hidden;
+  -webkit-transition: 0.2s cubic-bezier(0.3, 0.58, 0.55, 1);
+  transition: 0.2s cubic-bezier(0.3, 0.58, 0.55, 1);
+  bottom: -90px;
+  position: absolute;
+}
+.ourNewsDiv .item .about span {
+  color: #222;
+  font-family: "Barlow", sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 5px;
+  letter-spacing: 3px;
+}
+.ourNewsDiv .item .about h5 {
+  color: #222;
+  font-size: 24px;
+  font-family: "Gilda Display", serif;
+  font-weight: 400;
+  margin-top: 0.75rem;
+  margin-bottom: 0px;
+  cursor: pointer;
+}
+.ourNewsDiv .item .about h5:hover {
+  color: #aa8453;
+}
+.ourNewsDiv .item:hover img {
+  transition: all 0.8s ease-in-out;
+  -webkit-transform: scale(1.09, 1.09);
+  transform: scale(1.09, 1.09);
+  -webkit-filter: brightness(70%);
+}
+.ourNewsDiv .item:hover .about {
+  margin: -155px 20px 90px;
+}

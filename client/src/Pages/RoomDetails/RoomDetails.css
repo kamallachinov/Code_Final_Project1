@@ -1,0 +1,310 @@
+.RoomDetailsSec .carousel img {
+  width: 100%;
+  height: 100vh;
+}
+@media only screen and (max-width: 1080px) {
+  .RoomDetailsSec .carousel img {
+    width: 100%;
+    height: auto;
+  }
+}
+.aboutRoom {
+  padding: 5rem 0rem;
+  background-color: rgb(255, 255, 255);
+}
+.aboutRoom ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 0.5rem;
+}
+.aboutRoom ul li {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  text-align: start;
+  gap: 7px;
+}
+.aboutRoom ul li p {
+  margin: 0;
+  font-family: "Barlow", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.75em;
+  color: #666;
+}
+.aboutRoom h6 {
+  font-family: "Gilda Display", serif;
+  font-size: 27px;
+  color: #222;
+  margin-top: 1rem;
+}
+.aboutRoom p {
+  font-size: 15px;
+  margin: 0;
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  line-height: 1.75em;
+  color: #666;
+}
+.aboutRoom .firstP {
+  margin-bottom: 1rem;
+}
+.aboutRoom .icon {
+  font-size: 20px;
+  color: #aa8453;
+}
+.sidebar {
+  margin-bottom: 2rem;
+}
+.sidebar ul {
+  margin: 0;
+  padding: 0;
+}
+.sidebar ul li {
+  gap: 12px;
+}
+.sidebar ul li .icon {
+  font-size: 20px;
+  color: #aa8453;
+}
+.sidebar ul li p {
+  font-size: 20px;
+  margin: 0;
+}
+.aboutRoom button {
+  font-weight: 400;
+  font-family: "Barlow Condensed", sans-serif;
+  text-transform: uppercase;
+  background: #ab8a62;
+  color: #fff;
+  padding: 13px 22px;
+  margin: 0;
+  position: relative;
+  font-size: 15px;
+  letter-spacing: 3px;
+  margin-top: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: inset 0 0 0 0 #000000;
+  -webkit-transition: ease-out 0.6s;
+  -moz-transition: ease-out 0.6s;
+  transition: ease-out 0.6s;
+}
+.aboutRoom button:hover {
+  box-shadow: inset 400px 0 0 0 #000000;
+  color: #ffffff;
+  font-weight: 500;
+}
+.modalTitle {
+  font-family: "Gilda Display", serif;
+  font-size: 27px;
+  color: #222;
+}
+.modalBody {
+  display: flex;
+  flex-direction: column;
+  /* gap: 30px; */
+  font-family: "Gilda Display", serif;
+}
+.modalRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.modalRow .ages {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  text-align: center;
+  flex-direction: column;
+}
+.modalRow .ages span {
+  font-size: 15px;
+  line-height: 17px;
+}
+.modalRow .dogs {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+.modalRow h5 {
+  margin: 0;
+  font-size: 20px;
+}
+.modalRow .iconContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  gap: 17px;
+  cursor: pointer;
+}
+.modalRow .iconContainer button {
+  display: inline-flex;
+  background-color: #ffffff;
+  border-radius: 100%;
+  border: 1px solid rgb(85, 79, 79);
+  padding: 2px 2px;
+}
+.modalRow .iconContainer .icon {
+  color: rgb(85, 79, 79);
+}
+.modalRow .iconContainer h5 {
+  margin: 0;
+}
+.applyBtn {
+  font-weight: 400;
+  font-family: "Barlow Condensed", sans-serif;
+  text-transform: uppercase;
+  background: #ab8a62;
+  color: #fff;
+  padding: 13px 22px;
+  margin: 0;
+  position: relative;
+  font-size: 15px;
+  letter-spacing: 3px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: inset 0 0 0 0 #000000;
+  -webkit-transition: ease-out 0.6s;
+  -moz-transition: ease-out 0.6s;
+  transition: ease-out 0.6s;
+}
+.applyBtn:hover {
+  box-shadow: inset 400px 0 0 0 #000000;
+  color: #ffffff;
+  font-weight: 500;
+}
+.cancelBtn {
+  font-weight: 400;
+  font-family: "Barlow Condensed", sans-serif;
+  text-transform: uppercase;
+  background: #a22a18;
+  color: #fff;
+  padding: 13px 22px;
+  margin: 0;
+  position: relative;
+  font-size: 15px;
+  letter-spacing: 3px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: inset 0 0 0 0 #000000;
+  -webkit-transition: ease-out 0.6s;
+  -moz-transition: ease-out 0.6s;
+  transition: ease-out 0.6s;
+  margin-right: 1rem;
+}
+.cancelBtn:hover {
+  box-shadow: inset 400px 0 0 0 #000000;
+  color: #ffffff;
+  font-weight: 500;
+}
+.sidebar2 {
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: rgb(0 0 0 / 12%) 0px 6px 16px;
+}
+.sidebar2 h5 {
+  font-family: "Gilda Display", serif;
+  line-height: 1.25em;
+  margin: 0 0 20px 0;
+  color: #000000;
+  font-size: 25px;
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+.sidebar2 h6 {
+  font-family: "Gilda Display", serif;
+  line-height: 1.25em;
+  margin: 0 0 20px 0;
+  color: #000000;
+  font-size: 22px;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+.sidebar2 .sidebarList {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  margin-top: 0.5rem;
+  gap: 8px;
+}
+.sidebar2 .sidebarList .sidebarlistItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Gilda Display", serif;
+  color: #222;
+  font-size: 18px;
+}
+
+.sidebar2 .priceDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.sidebar2 .priceWithoutSale {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.sidebar2 .priceWithoutSale {
+  color: #000000;
+  margin: 0;
+  text-decoration: line-through #a22a18;
+}
+.sidebar2 .priceDiv h4 {
+  display: inline-flex;
+  gap: 10px;
+  color: #000000;
+  margin: 0;
+}
+.modalRowDropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  flex-direction: row;
+  gap: 20px;
+}
+.modalRowDropdown h5 {
+  margin: 0;
+}
+.modalRowDropdown .iconContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  gap: 17px;
+  cursor: pointer;
+}
+.modalRowDropdown .iconContainer button {
+  margin: 0;
+  display: inline-flex;
+  background-color: #ffffff;
+  border-radius: 100%;
+  border: 1px solid rgb(85, 79, 79);
+  padding: 1px 1px;
+}
+.modalRowDropdown .iconContainer button:hover {
+  box-shadow: 400px 0 0 0 #ffffff;
+  color: #ffffff;
+  font-weight: 500;
+}
+.modalRowDropdown .iconContainer h5 {
+  margin: 0;
+  margin: 0;
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  line-height: 1.75em;
+  color: #666;
+}
+.dropdownMenuButton {
+  margin: 0 !important;
+}

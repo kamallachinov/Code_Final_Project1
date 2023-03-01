@@ -1,0 +1,128 @@
+.Page404Sec {
+  min-height: 100vh;
+  height: auto;
+  position: relative;
+  background-blend-mode: overlay;
+  background: rgba(0, 0, 0, 0.4);
+  background-image: url(../../Assets//img/1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #fff;
+}
+.Page404Sec .mainDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.Page404Sec .mainDiv h2 {
+  font-size: 40px;
+  font-weight: 400;
+  color: #fff;
+  font-family: "Gilda Display", serif;
+  line-height: 1.25em;
+  margin: 0 0 20px 0;
+}
+.Page404Sec .mainDiv h6 {
+  color: #fff;
+  font-size: 15px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  letter-spacing: 3px;
+}
+.Page404Sec .mainDiv h1 {
+  font-size: 200px;
+  font-weight: 400;
+  margin-bottom: 0px;
+  position: relative;
+  color: transparent;
+  -webkit-text-stroke: 1px #fff;
+  opacity: 0.8;
+}
+.Page404Sec .mainDiv p {
+  color: #fff;
+  font-size: 15px;
+  font-family: "Barlow", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.75em;
+  margin-bottom: 20px;
+}
+.Page404Sec .mainDiv form {
+  margin-top: 30px;
+  position: relative;
+}
+.Page404Sec .mainDiv form input {
+  width: 100%;
+  padding: 11px 50px 11px 11px;
+  background-color: transparent;
+  border: 1px solid #aa8453;
+  border-radius: 0px;
+  color: #fff;
+  margin-bottom: 15px;
+  outline: none;
+}
+.Page404Sec .mainDiv form button {
+  background-color: #aa8453;
+  padding: 6px 20px;
+  border-radius: 0px;
+  color: #fff;
+  border: 0;
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  cursor: pointer;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 15px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: 400;
+  outline: none;
+  transition: 0.4s ease;
+}
+.Page404Sec .mainDiv form button:hover {
+  background-color: black;
+  color: #fff;
+}
+.Page404Sec .mainDiv span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.Page404Sec .mainDiv span p {
+  margin: 0;
+}
+.Page404Sec .mainDiv span .icon {
+  color: #fff;
+  font-size: 18px;
+  transition: 0.5s ease;
+}
+.Page404Sec .mainDiv span:hover .icon {
+  padding-right: 20px;
+  color: #aa8453;
+}
+.Page404Sec .mainDiv span p .link {
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  transition: 0.5s ease;
+}
+.Page404Sec .mainDiv span:hover .link {
+  color: #aa8453;
+}

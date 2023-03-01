@@ -1,0 +1,141 @@
+.contactUsSec {
+  background-image: url(../../Assets/img/contactUsBg.jpg);
+  padding: 120px 0;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 60vh;
+}
+.contactUsSec .textCenter {
+  display: flex;
+  flex-direction: column;
+}
+.contactUsSec .textCenter .subtitle {
+  font-size: 15px;
+  font-family: "Barlow Condensed", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+.contactUsSec .textCenter .title {
+  font-family: "Gilda Display", serif;
+  font-weight: 400;
+  line-height: 1.25em;
+  margin: 0 0 20px 0;
+  color: #fff;
+  font-size: 70px;
+}
+
+.textDiv {
+  padding: 3rem 0rem;
+}
+.textDiv h3 {
+  font-size: 24px;
+  color: #222;
+  font-family: "Gilda Display", serif;
+  font-weight: 400;
+  line-height: 1.25em;
+  margin: 0 0 20px 0;
+}
+.textDiv p {
+  font-family: "Barlow", sans-serif;
+  font-size: 16.5px;
+  font-weight: 400;
+  line-height: 1.75em;
+  color: #666;
+  margin-bottom: 20px;
+}
+.textDiv .reservation {
+  margin-bottom: 1rem;
+}
+.FormContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 0rem;
+}
+.FormContainer form {
+  display: flex;
+  flex-direction: column;
+}
+.FormContainer form div {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.FormContainer form input {
+  max-width: 100%;
+  margin-bottom: 60px;
+  padding: 10px 0;
+  height: auto;
+  background-color: transparent;
+  box-shadow: none;
+  border-width: 0 0 1px;
+  border-style: solid;
+  display: block;
+  width: 280px;
+  line-height: 1.5em;
+  font-family: "Barlow", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #666;
+  background-image: none;
+  border-bottom: 1px solid #81643e;
+}
+.FormContainer form .textarea {
+  max-width: 100%;
+  margin-bottom: 15px;
+  padding: 10px 0;
+  height: auto;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-width: 0 0 1px;
+  border-style: solid;
+  display: block;
+  width: 560px;
+  line-height: 1.5em;
+  font-family: "Barlow", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #666;
+  background-image: none;
+  border-bottom: 1px solid #81643e;
+  outline: none;
+}
+.FormContainer h3 {
+  font-size: 24px;
+  color: #222;
+  font-family: "Gilda Display", serif;
+  font-weight: 400;
+  line-height: 1.25em;
+  margin: 0 0 20px 0;
+}
+.FormContainer form button {
+  font-weight: 400;
+  font-family: "Barlow Condensed", sans-serif;
+  text-transform: uppercase;
+  background-color: #ab854f;
+  color: #fff;
+  padding: 12px 20px;
+  margin: 0;
+  position: relative;
+  font-size: 15px;
+  letter-spacing: 3px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: inset 0 0 0 0 #fff;
+  -webkit-transition: ease-out 0.6s;
+  -moz-transition: ease-out 0.6s;
+  transition: ease-out 0.6s;
+  width: 200px;
+}
+.FormContainer form .slide_right:hover {
+  box-shadow: inset 400px 0 0 0 #fff;
+  color: #ab854f;
+  font-weight: 500;
+}
+.mapContainer .row {
+  padding: 0rem;
+  padding-bottom: 5rem;
+}

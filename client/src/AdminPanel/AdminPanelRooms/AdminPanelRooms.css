@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,200;0,300;0,400;1,300;1,400&family=Barlow:ital,wght@0,200;0,300;0,400;0,500;1,300;1,400&family=Epilogue:wght@300;400&family=Gilda+Display&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Martel:wght@400;600&family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;1,400&family=Open+Sans:wght@300;500&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&family=Roboto+Slab&display=swap");
+.tableContainerDivforAdminPanell {
+  position: absolute;
+  right: 0;
+  width: 82%;
+  padding: 4rem 2rem;
+  background: rgb(18, 19, 19);
+  background: linear-gradient(
+    90deg,
+    rgba(1, 84, 117, 1) 26%,
+    rgba(35, 52, 102, 1) 62%
+  );
+  height: 100%;
+}
+.someActionsContainerDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.someActionsContainerDiv button {
+  background-color: #142734;
+  color: rgb(191, 191, 191);
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem;
+  outline: none;
+  border: 0;
+  font-family: "Poppins", sans-serif;
+  transition: 0.4s ease;
+}
+.someActionsContainerDiv input {
+  padding: 0.75rem 1.2rem;
+  outline: none;
+  background-color: #142734;
+  border: 0;
+  border-radius: 0.4rem;
+  color: white;
+  font-size: 18px;
+}
+.someActionsContainerDiv button:hover {
+  color: white;
+}
+.roomModalBody .addingNewRoomRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.modalHeaderContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: linear-gradient(
+    90deg,
+    rgba(1, 84, 117, 1) 26%,
+    rgba(35, 52, 102, 1) 62%
+  );
+  color: white;
+}
+.modalHeaderContainer .modalHeadingContainerDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.modalHeaderContainer .modalHeadingContainerDiv h3 {
+  font-family: "Gilda Display", serif;
+  margin-bottom: 0;
+  font-size: 24px;
+  font-weight: 500;
+}
+.modalHeaderContainer .modalHeadingContainerDiv .icon {
+  color: red;
+  margin-left: 0.5rem;
+  font-size: 25px;
+  cursor: pointer;
+}
+.roomModalBody {
+  background: linear-gradient(
+    90deg,
+    rgba(1, 84, 117, 1) 26%,
+    rgba(35, 52, 102, 1) 62%
+  );
+  color: white;
+}
+.roomModalBody form {
+  margin: 0px auto 0;
+  max-width: 400px;
+}
+.roomModalActionsDiv {
+  margin-top: 1rem;
+}
+.roomModalBody .addingNewRoomRow h4 {
+  font-family: initial;
+  font-size: 18px;
+  color: white;
+  text-transform: uppercase;
+}
+.roomModalBody .addingNewRoomRow input {
+  padding: 0.5rem 1rem;
+  border-radius: 0.4rem;
+  width: 40%;
+}
+.tableContainerDivforAdminPanell .table {
+  background-color: #191c24b9;
+  opacity: 0.8;
+  border-radius: 0.5rem;
+}
+.tableContainerDivforAdminPanell .table tr {
+  text-align: center;
+}
+.tableContainerDivforAdminPanell .table th {
+  font-size: 19px;
+  line-height: 1.75rem;
+  text-align: center;
+  font-weight: 600;
+}
+.tableContainerDivforAdminPanell .table td {
+  font-size: 22px;
+  line-height: 1.2rem;
+  padding: 1.25rem 1rem;
+  vertical-align: middle;
+}
+.tableContainerDivforAdminPanell .table td,
+th {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+.tableContainerDivforAdminPanell .actionsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 10px;
+}
+.tableContainerDivforAdminPanell .actionsContainer .deleteBtn {
+  background-color: red;
+  border-radius: 0.4rem;
+  color: rgb(255, 255, 255);
+  padding: 1rem 1.25rem;
+
+  outline: none;
+  font-size: 20px;
+
+  line-height: 1rem;
+  border: 0;
+  font-family: "Poppins", sans-serif;
+}
+.tableContainerDivforAdminPanell .actionsContainer .editBtn {
+  background-color: #ffab00;
+  border-radius: 0.4rem;
+  color: rgb(255, 255, 255);
+  padding: 1rem 1.25rem;
+  outline: none;
+  font-size: 20px;
+  line-height: 1rem;
+  border: 0;
+  font-family: "Poppins", sans-serif;
+}
+.tableContainerDivforAdminPanell .actionsContainer .viewBtn {
+  background-color: #8f5fe8;
+  border-radius: 0.4rem;
+  color: rgb(255, 255, 255);
+  padding: 1rem 1.25rem;
+  outline: none;
+  font-size: 20px;
+
+  line-height: 1rem;
+  border: 0;
+  font-family: "Poppins", sans-serif;
+}
+.createBtn {
+  background-color: #047808;
+  border-radius: 0.4rem;
+  color: rgb(255, 255, 255);
+  padding: 1rem 1.25rem;
+  outline: none;
+  font-size: 20px;
+  line-height: 1rem;
+  border: 0;
+  transition: 0.4s ease;
+  font-family: "Poppins", sans-serif;
+}
+.createBtn:hover {
+  box-shadow: inset 400px 0 0 0 #000000;
+  color: #ffffff;
+  font-weight: 500;
+}

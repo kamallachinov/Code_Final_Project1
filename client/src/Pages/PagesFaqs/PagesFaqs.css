@@ -1,0 +1,40 @@
+.PagesFaqsSec {
+  background-image: url(../../Assets/img/5.jpg);
+  padding: 120px 0;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 60vh;
+}
+.PagesFaqsSec .textCenter {
+  display: flex;
+  flex-direction: column;
+}
+.PagesFaqsSec .textCenter .subtitle {
+  font-size: 15px;
+  font-family: "Barlow Condensed", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+.PagesFaqsSec .textCenter .title {
+  font-family: "Gilda Display", serif;
+  font-weight: 400;
+  line-height: 1.25em;
+  margin: 0 0 20px 0;
+  color: #fff;
+  font-size: 70px;
+}
+/* ACCARDION STYLES */
+.accardionSec {
+  padding: 5rem 0rem;
+  background-color: #f8f5f0;
+}
+.accardionSec .accordionContainer .accardion {
+  padding: 3rem 0rem;
+}
+.accardionSec .accordionContainer .accardionItem {
+  margin-bottom: 25px;
+}

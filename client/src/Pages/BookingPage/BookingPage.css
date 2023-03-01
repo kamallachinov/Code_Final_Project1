@@ -1,0 +1,346 @@
+.bookinPageSec {
+  background-image: url(../../Assets/img/contactUsBg.jpg);
+  padding: 120px 0;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 60vh;
+}
+.bookinPageSec .textCenter {
+  display: flex;
+  flex-direction: column;
+}
+.bookinPageSec .textCenter .subtitle {
+  font-size: 15px;
+  font-family: "Barlow Condensed", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+.bookinPageSec .textCenter .title {
+  font-family: "Gilda Display", serif;
+  font-weight: 400;
+  line-height: 1.25em;
+  margin: 0 0 20px 0;
+  color: #fff;
+  font-size: 70px;
+}
+
+/* SIDEBAR STYLES */
+.sidebar2 {
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: rgb(0 0 0 / 12%) 0px 6px 16px;
+}
+.sidebar2 h5 {
+  font-family: "Gilda Display", serif;
+  line-height: 1.25em;
+  margin: 0 0 20px 0;
+  color: #000000;
+  font-size: 25px;
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+.sidebar2 h6 {
+  font-family: "Gilda Display", serif;
+  line-height: 1.25em;
+  margin: 0 0 20px 0;
+  color: #000000;
+  font-size: 22px;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+.sidebar2 .sidebarList {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  margin-top: 0.5rem;
+  gap: 8px;
+}
+.sidebar2 .sidebarList .sidebarlistItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Gilda Display", serif;
+  color: #222;
+  font-size: 18px;
+}
+
+.sidebar2 .priceDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.sidebar2 .priceWithoutSale {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.sidebar2 .priceWithoutSale {
+  color: #000000;
+  margin: 0;
+  text-decoration: line-through #a22a18;
+}
+.sidebar2 .priceDiv h4 {
+  display: inline-flex;
+  gap: 10px;
+  color: #000000;
+  margin: 0;
+}
+.bookingDiv {
+  padding: 5rem 0rem;
+  background-color: #ffffffc3;
+}
+.bookingDiv .card {
+  background-color: #fff;
+  border: 1px solid #e9e2d3;
+  box-shadow: 0 0 4px rgb(0 0 0 / 10%);
+}
+.bookingDiv .card .header {
+  color: #303030;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 15px 20px;
+}
+.bookingDiv .card .details-item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e7e6f6;
+  padding: 15px 20px;
+}
+.bookingDiv .card .details-item .text-info {
+  margin-left: 10px;
+}
+.bookingDiv .card .details-item .text-info p:first-child {
+  color: #949494;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  margin: 0;
+}
+.bookingDiv .card .details-item .text-info p {
+  margin: 0;
+  color: #303030;
+  font-size: 14px;
+  font-weight: normal;
+  letter-spacing: 0.2px;
+}
+.bookingDiv .modalBody {
+  gap: 0 !important;
+}
+.card .price-summary {
+  padding: 15px 20px;
+}
+.card .price-summary ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.card .price-summary ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #222;
+  font-size: 15px;
+}
+.card .total-price {
+  padding: 15px 20px;
+  border-top: 1px solid #d9d9d9;
+}
+.card .total-price div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.card .total-price div span {
+  font-size: 20px;
+  font-weight: 600;
+}
+.btnCol .aboutRoommm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 15px 20px;
+  background-color: #fff;
+  border: 1px solid #e9e2d3;
+  box-shadow: 0 0 4px rgb(0 0 0 / 10%);
+  flex-direction: column;
+}
+.btnCol .aboutRoommm span {
+  margin: 0;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #000;
+  font-weight: 550;
+  font-family: "Gilda Display", serif;
+  margin-top: 0.5rem;
+}
+.btnCol .aboutRoommm p:last-child {
+  margin: 0;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000;
+  font-weight: 550;
+  font-family: "Gilda Display", serif;
+  margin-top: 0.5rem;
+}
+.btnCol .btnContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 15px 20px;
+}
+.btnCol .btnContainer button {
+  font-weight: 400;
+  font-family: "Barlow Condensed", sans-serif;
+  text-transform: uppercase;
+  background: #ab8a62;
+  color: #fff;
+  padding: 13px 22px;
+  margin: 0;
+  position: relative;
+  font-size: 15px;
+  letter-spacing: 3px;
+  margin-top: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: inset 0 0 0 0 #000000;
+  -webkit-transition: ease-out 0.6s;
+  -moz-transition: ease-out 0.6s;
+  transition: ease-out 0.6s;
+}
+.btnCol .btnContainer button:hover {
+  box-shadow: inset 400px 0 0 0 #000000;
+  color: #ffffff;
+  font-weight: 500;
+}
+.payBtn {
+  font-weight: 400;
+  font-family: "Barlow Condensed", sans-serif;
+  text-transform: uppercase;
+  background: #2b40a7;
+  color: #fff;
+  padding: 13px 22px;
+  margin: 0;
+  position: relative;
+  font-size: 15px;
+  letter-spacing: 3px;
+  margin-right: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: inset 0 0 0 0 #000000;
+  -webkit-transition: ease-out 0.6s;
+  -moz-transition: ease-out 0.6s;
+  transition: ease-out 0.6s;
+}
+.payBtn:hover {
+  box-shadow: inset 400px 0 0 0 #000000;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+/* CARD */
+.App {
+  font-family: sans-serif;
+  text-align: left;
+}
+form {
+  margin: 30px auto 0;
+  max-width: 400px;
+}
+.front {
+  position: relative;
+  transform: rotateY(0deg);
+  background-color: red;
+}
+.back {
+  position: relative;
+  transform: rotateY(180deg);
+  background-color: yellow;
+}
+.rccs__card {
+  height: 200.873px;
+  margin-top: 10;
+  margin-bottom: 10;
+  position: relative;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+  width: 300px;
+
+  /* background: linear-gradient(25deg, #986, #234); */
+}
+.paymentCard .row {
+  gap: 0;
+  padding: 0;
+}
+.front1 {
+  display: flex;
+  margin-top: 30px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: red;
+}
+
+.back1 {
+  transform: rotateY(360deg);
+  margin-bottom: 30px !important;
+  background-color: yellow;
+}
+.App-cards-list {
+  display: flex;
+  margin-top: 30px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.App-cards-list > * {
+  transform: scale(0.8);
+  margin-bottom: 30px !important;
+}
+
+.back3 {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-image: url(../BookingPage/img/6.jpeg);
+  /* rccs-signature-background: repeating-linear-gradient(
+      0.1deg,
+      #fff 20%,
+      #fff 40%,
+      #fea 40%,
+      #fea 44%,
+      #fff 44%
+    );
+    rccs-default-background: linear-gradient(25deg, #d32121, #178a63);
+    rccs-unknown-background: linear-gradient(25deg, rgb(160, 18, 101), #999);
+    rccs-background-transition: 0.5s;
+    rccs-animate-background: true; */
+}
+
+.rccs__card--unknown > div {
+  /* background-image: url(../BookingPage/img/6.jpeg); */
+  background: url(../BookingPage/img/6.jpeg) !important;
+}
+.modalBody {
+  gap: 0;
+}

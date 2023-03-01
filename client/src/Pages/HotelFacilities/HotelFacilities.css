@@ -1,0 +1,80 @@
+.HotelFacilitiesSec {
+  padding: 5rem 0rem;
+}
+.HotelFacilitiesSec .roww {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  padding: 0rem 0rem;
+  padding-top: 1rem;
+  gap: 20px;
+}
+.HotelFacilitiesSec .roww .col {
+  width: 100%;
+}
+.HotelFacilitiesSec .card {
+  background: transparent;
+  padding: 30px 20px;
+  width: 380px;
+  height: 219px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  z-index: 1;
+  margin-bottom: 30px;
+  line-height: 1;
+  border: 1px solid #f1eeeb;
+}
+.HotelFacilitiesSec .card .iconn {
+  font-size: 45px;
+  color: #aa8453;
+  line-height: 1;
+  margin-bottom: 20px;
+  display: inline-block;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.HotelFacilitiesSec .card h5 {
+  font-size: 24px;
+  color: #222;
+  margin-bottom: 10px;
+  font-family: "Gilda Display", serif;
+  font-weight: 400;
+  line-height: 1.25em;
+  margin: 0 0 20px 0;
+}
+.HotelFacilitiesSec .card p {
+  margin: 0;
+  color: #666;
+  font-family: "Barlow", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.75em;
+}
+@media only screen and (max-width: 1028px) {
+  .HotelFacilitiesSec .roww {
+    display: grid;
+    grid-template-columns: 1fr 1fr !important;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .HotelFacilitiesSec .roww {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .HotelFacilitiesSec .roww {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr !important;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+  }
+}

@@ -1,0 +1,176 @@
+input {
+  outline: none;
+  border: 1px solid #cbcbcb;
+}
+.SearchRoomsSec {
+  padding: 5rem 0rem;
+  background-color: #f8f5f0;
+}
+.SearchRoomsSec .mainDiv {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap !important;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  flex-direction: column;
+}
+.SearchRoomsSec .formContainer {
+  display: flex;
+  flex-direction: row;
+}
+.SearchRoomsSec .formContainer form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  margin: 0;
+}
+.SearchRoomsSec .formContainer form h4 {
+  color: #222;
+  font-size: 20px;
+}
+.formContainer .selectInput {
+  width: 200px;
+}
+.formContainer .selectInput .my-custom-value {
+  height: 100% !important;
+}
+.SearchRoomsSec .textCenter {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.SearchRoomsSec .textCenter .subtitle {
+  font-size: 15px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  color: #666;
+  text-transform: uppercase;
+  position: relative;
+  letter-spacing: 6px;
+  margin-bottom: 5px;
+}
+.SearchRoomsSec .textCenter .title {
+  font-size: 45px;
+  font-family: "Gilda Display", serif;
+  font-weight: 400;
+  color: #222;
+  position: relative;
+  margin-bottom: 20px;
+  line-height: 1.25em;
+  max-width: 100%;
+}
+.SearchRoomsSec .formContainer button {
+  display: block;
+  padding: 1rem 1.5rem;
+  border: none;
+  margin: 0;
+  background: #aa8453;
+  color: #fff;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-top: 1rem;
+}
+.SearchRoomsSec .formContainer button:hover {
+  background-color: black;
+  color: white;
+}
+.SearchRoomsSec .formContainer input {
+  outline: none;
+  border: 0;
+  border-radius: 0.4rem;
+  padding: 0.75rem 1.25rem;
+  margin-left: 0.5rem;
+}
+@media only screen and (max-width: 981px) {
+  .SearchRoomsSec {
+    padding: 3rem 0rem;
+  }
+  .SearchRoomsSec .formContainer input {
+    width: 100%;
+  }
+  .SearchRoomsSec .formContainer .selectInput {
+    width: 100%;
+  }
+  .SearchRoomsSec .formContainer button {
+    display: block;
+    padding: 0rem 0.5rem;
+    border: none;
+    margin: 0;
+    background: #aa8453;
+    color: #fff;
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .SearchRoomsSec {
+    padding: 2rem 0rem;
+  }
+  .SearchRoomsSec .formContainer input {
+    width: 100%;
+  }
+  .SearchRoomsSec .formContainer .selectInput {
+    width: 100%;
+  }
+  .SearchRoomsSec .formContainer button {
+    display: block;
+    padding: 0rem 0.5rem;
+    border: none;
+    margin: 0;
+    background: #aa8453;
+    color: #fff;
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .SearchRoomsSec {
+    padding: 3rem 0rem;
+  }
+  .SearchRoomsSec .formContainer input {
+    width: 100%;
+  }
+  .SearchRoomsSec .formContainer .selectInput {
+    width: 100%;
+  }
+  .SearchRoomsSec .formContainer button {
+    display: block;
+    padding: 0rem 0.5rem;
+    border: none;
+    margin: 0;
+    background: #aa8453;
+    color: #fff;
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    width: 100%;
+  }
+}

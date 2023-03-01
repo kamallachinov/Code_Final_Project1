@@ -1,0 +1,551 @@
+.newsSinglePost {
+  background-image: url(../../Assets/img/1.jpg);
+  padding: 120px 0;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 60vh;
+}
+.newsSinglePost .textCenter {
+  display: flex;
+  flex-direction: column;
+}
+.newsSinglePost .textCenter .subtitle {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Barlow Condensed", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  margin-bottom: 10px;
+  color: #ffffff;
+  font-weight: 400;
+  line-height: 1.25em;
+}
+.newsSinglePost .textCenter .subtitle h5 {
+  font-size: 15px;
+  font-family: "Barlow Condensed", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  margin: 0;
+  color: #aa8453;
+}
+.newsSinglePost .textCenter .title {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  text-align: start;
+  font-family: "Gilda Display", serif;
+  font-weight: 400;
+  line-height: 1.25em;
+  margin: 0 0 20px 0;
+  color: #fff;
+  font-size: 70px;
+}
+.newsSinglePost .textCenter div {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+}
+.newsSinglePost .textCenter div img {
+  border-radius: 50%;
+  width: 37px;
+  height: 37px;
+  margin-right: 10px;
+}
+.newsSinglePost .textCenter .textFooter {
+  display: flex;
+  gap: 20px;
+}
+.newsSinglePost .textCenter .textFooter .acc span {
+  color: #fff;
+  display: inline-block;
+  text-decoration: none;
+}
+.newsSinglePost .textCenter .textFooter .dateDiv {
+  font-size: 18px;
+  color: #fff;
+}
+.newsSinglePost .textCenter .textFooter .dateDiv .icon {
+  color: #aa8453;
+  font-size: 20px;
+  margin-right: 7px;
+}
+
+/* SinglePostDivContainer styles */
+
+.SinglePostDivContainer {
+  padding: 5rem 0rem;
+}
+.firstCol {
+  display: flex;
+  flex-direction: column;
+}
+.firstCol img {
+  width: 100%;
+  height: 486px;
+}
+.firstCol h2 {
+  font-family: "Gilda Display", serif;
+  font-weight: 400;
+  line-height: 1.25em;
+  margin: 0 0 20px 0;
+  color: #222;
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+.firstCol .miniDiv {
+  padding: 45px;
+  display: block;
+  background-color: #f8f5f0;
+  overflow: hidden;
+  margin: 35px 0;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.75em;
+  color: #666;
+}
+.firstCol .miniDiv p {
+  font-family: inherit;
+  margin-bottom: 0 !important;
+  color: inherit;
+  max-width: 650px;
+  width: 100%;
+}
+.firstCol .miniDiv div {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+  margin-top: 22px;
+  gap: 10px;
+}
+.firstCol .miniDiv div p {
+  display: inline-flex;
+  font-size: 15px;
+  border-color: inherit;
+  line-height: 1;
+  font-style: normal;
+  color: #aa8453;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.firstCol .miniDiv div .line {
+  width: 40px;
+  height: 2px;
+  background-color: #aa8453;
+}
+.firstCol .restPics img {
+  height: 233px;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.firstCol .restPics p {
+  font-family: "Barlow", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.75em;
+  color: #666;
+  margin-bottom: 20px;
+}
+.firstCol .commentPart img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+.firstCol .commentPart {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 1rem;
+}
+.firstCol .commentPart div {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  text-align: start;
+}
+.firstCol .commentPart .textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  text-align: start;
+}
+.firstCol .commentPart .textContainer h3 {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  text-align: start;
+  font-size: 20px;
+  color: #222;
+  font-family: "Gilda Display", serif;
+  margin-top: 15px;
+}
+.firstCol .commentPart .textContainer h3 span {
+  font-family: "Barlow", sans-serif;
+  font-size: 12px;
+  color: #666;
+  margin-left: 15px;
+}
+.firstCol .commentPart .textContainer p {
+  font-family: "Barlow", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.75em;
+  color: #666;
+  margin-bottom: 20px;
+}
+.firstCol .commentPart .textContainer .replyP {
+  font-size: 16px;
+  color: #aa8453;
+  margin: 0;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+/* FORM PART */
+
+.firstCol .FormPart {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  text-align: start;
+  margin-top: 5rem;
+}
+.firstCol .FormPart h3 {
+  font-size: 20px;
+  color: #222;
+  font-family: "Gilda Display", serif;
+  font-weight: 400;
+  line-height: 1.25em;
+  margin: 0 0 20px 0;
+}
+.firstCol .FormPart form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.firstCol .FormPart form div {
+  display: flex;
+  gap: 10px;
+}
+.firstCol .FormPart form input {
+  max-width: 100%;
+  margin-bottom: 15px;
+  padding: 10px 0;
+  height: auto;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-width: 0 0 1px;
+  border-style: solid;
+  display: block;
+  width: 250px;
+  line-height: 1.5em;
+  font-family: "Barlow", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #666;
+  background-image: none;
+  outline: none;
+  border-bottom: 1px solid #aa8453;
+}
+.firstCol .FormPart form textarea {
+  max-width: 100%;
+  margin-bottom: 15px;
+  padding: 30px 0;
+  height: auto;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-width: 0 0 1px;
+  border-style: solid;
+  display: block;
+  width: 500px;
+  outline: none;
+  line-height: 1.5em;
+  font-family: "Barlow", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #666;
+  background-image: none;
+  border-bottom: 1px solid #aa8453;
+}
+.firstCol .FormPart form button {
+  font-weight: 400;
+  font-family: "Barlow Condensed", sans-serif;
+  text-transform: uppercase;
+  background: #ab8a62;
+  color: #fff;
+  padding: 13px 22px;
+  margin: 0;
+  position: relative;
+  font-size: 15px;
+  letter-spacing: 3px;
+  width: 250px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: inset 0 0 0 0 #000000;
+  -webkit-transition: ease-out 0.6s;
+  -moz-transition: ease-out 0.6s;
+  transition: ease-out 0.6s;
+}
+.firstCol .FormPart form button:hover {
+  box-shadow: inset 400px 0 0 0 #000000;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+/* SECOND COL */
+.secCol .wrap {
+  background: #f8f5f0;
+  padding: 30px;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.secCol .wrap .search {
+  width: 100%;
+  position: center;
+  display: flex;
+}
+
+.secCol .wrap .searchTerm {
+  width: 100%;
+  border: 0;
+  border-right: none;
+  padding: 1.3rem 1rem;
+  height: 20px;
+  outline: none;
+  color: #9dbfaf;
+}
+.secCol .wrap .iconDiv {
+  padding: 0.5rem 1rem;
+  background: #000000;
+}
+.secCol .wrap .iconDiv .search-icon {
+  /* width: 40px;
+  height: 45px; */
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+.secCol .recentPost {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  justify-content: start;
+  align-items: start;
+  background: #f8f5f0;
+  padding: 30px;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+.secCol .recentPost h6 {
+  padding-bottom: 5px;
+  font-size: 24px;
+  line-height: 1.75em;
+  margin-bottom: 15px;
+  color: #222;
+  font-family: "Gilda Display", serif;
+  font-weight: 400;
+  margin: 0 0 6px 0;
+}
+.secCol .recentPost .line {
+  width: 100%;
+  height: 1px;
+  background-color: #aa8453;
+}
+.secCol .recentPost ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  padding: 0;
+  margin-bottom: 0;
+  gap: 20px;
+}
+.secCol .recentPost ul li div {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  text-align: start;
+  gap: 10px;
+}
+.secCol .recentPost ul li div img {
+  width: 90px;
+  height: 60px;
+}
+.secCol .recentPost ul li div p {
+  margin: 0;
+  font-size: 17px;
+}
+.secCol .recentPost ul li div p:hover {
+  color: #aa8453;
+  cursor: pointer;
+}
+.secCol .archives {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  justify-content: start;
+  align-items: start;
+  background: #f8f5f0;
+  padding: 30px;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.secCol .archives h6 {
+  padding-bottom: 5px;
+  font-size: 24px;
+  line-height: 1.75em;
+  margin-bottom: 15px;
+  color: #222;
+  font-family: "Gilda Display", serif;
+  font-weight: 400;
+  margin: 0 0 7px 0;
+}
+.secCol .archives .line {
+  width: 100%;
+  height: 1px;
+  background-color: #aa8453;
+}
+.secCol .archives ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin-top: 1rem;
+  padding: 0;
+  margin-bottom: 0;
+  gap: 20px;
+}
+.secCol .archives ul li {
+  color: #666;
+  font-size: 15px;
+  line-height: 1.5em;
+}
+
+.secCol .archives ul li span:hover {
+  color: #aa8453;
+  cursor: pointer;
+}
+.secCol .categories {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  justify-content: start;
+  align-items: start;
+  background: #f8f5f0;
+  padding: 30px;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.secCol .categories h6 {
+  padding-bottom: 5px;
+  font-size: 24px;
+  line-height: 1.75em;
+  margin-bottom: 15px;
+  color: #222;
+  font-family: "Gilda Display", serif;
+  font-weight: 400;
+  margin: 0 0 7px 0;
+}
+.secCol .categories .line {
+  width: 100%;
+  height: 1px;
+  background-color: #aa8453;
+}
+.secCol .categories ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin-top: 1rem;
+  padding: 0;
+  margin-bottom: 0;
+  gap: 20px;
+}
+.secCol .categories ul li {
+  color: #666;
+  font-size: 15px;
+  line-height: 1.5em;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  text-align: start;
+  gap: 10px;
+}
+
+.secCol .categories ul li span:hover {
+  color: #aa8453;
+  cursor: pointer;
+}
+.secCol .tags {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  justify-content: start;
+  align-items: start;
+  background: #f8f5f0;
+  padding: 30px;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.secCol .tags h6 {
+  padding-bottom: 5px;
+  font-size: 24px;
+  line-height: 1.75em;
+  margin-bottom: 15px;
+  color: #222;
+  font-family: "Gilda Display", serif;
+  font-weight: 400;
+  margin: 0 0 7px 0;
+}
+.secCol .tags .line {
+  width: 100%;
+  height: 1px;
+  background-color: #aa8453;
+}
+.secCol .tags div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  gap: 10px;
+}
+.secCol .tags button {
+  font-weight: 400;
+  font-family: "Barlow Condensed", sans-serif;
+  text-transform: uppercase;
+  background: #ab8a62;
+  color: #fff;
+  padding: 13px 22px;
+  margin: 0;
+  position: relative;
+  font-size: 15px;
+  letter-spacing: 3px;
+  width: 250px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: inset 0 0 0 0 #000000;
+  -webkit-transition: ease-out 0.6s;
+  -moz-transition: ease-out 0.6s;
+  transition: ease-out 0.6s;
+}
+.secCol .tags button:hover {
+  box-shadow: inset 400px 0 0 0 #000000;
+  color: #ffffff;
+  font-weight: 500;
+}

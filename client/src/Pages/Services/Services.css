@@ -1,0 +1,186 @@
+.ServicesSec {
+  padding: 6rem 0rem;
+  background-color: white;
+}
+.ServicesSec .col {
+  background-color: #f8f5f0;
+  width: 100%;
+  height: 380px;
+}
+.ServicesSec .col div {
+  overflow: hidden;
+}
+.ServicesSec .col div .image {
+  width: 100%;
+  height: 380px;
+  object-fit: cover;
+  display: flex;
+}
+.ServicesSec .col .infoo {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  text-align: start;
+  flex-direction: column;
+  padding: 3rem 3rem;
+}
+.ServicesSec .col .infoo h6 {
+  font-size: 15px;
+  letter-spacing: 3px;
+  color: #666;
+  font-family: "Barlow Condensed", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+.ServicesSec .col .infoo h4 {
+  margin: 0 0 10px 0;
+  font-size: 32px;
+  color: #222;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+.ServicesSec .col .infoo p {
+  font-family: "Barlow", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.75em;
+  color: #666;
+  margin-bottom: 20px;
+}
+.ServicesSec .col .infoo button {
+  font-weight: 400;
+  font-family: "Barlow Condensed", sans-serif;
+  text-transform: uppercase;
+  background: #ab8a62;
+  color: #fff;
+  padding: 13px 22px;
+  margin: 0;
+  position: relative;
+  font-size: 15px;
+  letter-spacing: 3px;
+
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: inset 0 0 0 0 #000000;
+  -webkit-transition: ease-out 0.6s;
+  -moz-transition: ease-out 0.6s;
+  transition: ease-out 0.6s;
+}
+.ServicesSec .col .infoo .slide_rightt:hover {
+  box-shadow: inset 400px 0 0 0 #000000;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.ServicesSec .col:hover .image {
+  transition: all 0.8s ease-in-out;
+  transform: scale(1.09);
+}
+/* .ServicesSec .ServicesSecrowwww {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 1rem 7rem;
+}
+.ServicesSec .ServicesSecrowwww .col {
+  background-color: #f8f5f0;
+  width: 100%;
+}
+.ServicesSec .ServicesSecrowwww .col div {
+  overflow: hidden;
+}
+.ServicesSec .ServicesSecrowwww .col div .image {
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s ease-in-out;
+  overflow: hidden;
+}
+.ServicesSec .ServicesSecrowwww .col:hover .image {
+  transition: all 0.8s ease-in-out;
+  transform: scale(1.09);
+}
+.ServicesSec .ServicesSecrowwww .col .infoo {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  text-align: start;
+  flex-direction: column;
+  padding: 3rem 3rem;
+}
+.ServicesSec .ServicesSecrowwww .col .infoo h6 {
+  font-size: 15px;
+  letter-spacing: 3px;
+  color: #666;
+  font-family: "Barlow Condensed", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+.ServicesSec .ServicesSecrowwww .col .infoo h4 {
+  margin: 0 0 10px 0;
+  font-size: 32px;
+  color: #222;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+.ServicesSec .ServicesSecrowwww .col .infoo p {
+  font-family: "Barlow", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.75em;
+  color: #666;
+  margin-bottom: 20px;
+}
+.ServicesSec .ServicesSecrowwww .col .infoo button {
+  font-weight: 400;
+  font-family: "Barlow Condensed", sans-serif;
+  text-transform: uppercase;
+  background: #ab8a62;
+  color: #fff;
+  padding: 13px 22px;
+  margin: 0;
+  position: relative;
+  font-size: 15px;
+  letter-spacing: 3px;
+
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: inset 0 0 0 0 #000000;
+  -webkit-transition: ease-out 0.6s;
+  -moz-transition: ease-out 0.6s;
+  transition: ease-out 0.6s;
+}
+.ServicesSec .ServicesSecrowwww .col .infoo .slide_rightt:hover {
+  box-shadow: inset 400px 0 0 0 #000000;
+  color: #ffffff;
+  font-weight: 500;
+}
+@media only screen and (max-width: 1028px) {
+  .HotelFacilitiesSec .ServicesSecrowwww {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .ServicesSec .ServicesSecrowwww {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+    padding: 0rem;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .ServicesSec {
+    padding: 4rem 0rem;
+    background-color: white;
+  }
+  .ServicesSec .ServicesSecrowwww {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr;
+    gap: 0;
+    padding: 0;
+  }
+  .ServicesSec .ServicesSecrowwww .col {
+    background-color: #f8f5f0;
+  }
+} */

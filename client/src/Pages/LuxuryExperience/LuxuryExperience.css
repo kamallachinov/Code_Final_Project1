@@ -1,0 +1,123 @@
+.row {
+  padding: 4rem 0rem;
+  gap: 5rem;
+  flex-wrap: wrap;
+}
+.subtitle {
+  font-size: 15px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  color: #666;
+  text-transform: uppercase;
+  position: relative;
+  letter-spacing: 6px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+.title {
+  font-size: 45px;
+  font-family: "Gilda Display", serif;
+  font-weight: 400;
+  color: #222;
+  position: relative;
+  margin-bottom: 20px;
+  line-height: 1.25em;
+  max-width: 70%;
+}
+.col p {
+  font-family: "Barlow", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.75em;
+  color: #666;
+  margin-bottom: 20px;
+  max-width: 90%;
+}
+.reservation {
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  gap: 20px;
+}
+.reservation span .phoneIcon {
+  font-size: 40px;
+  color: #8e6d45;
+}
+.reservation div span {
+  font-family: "Barlow", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.75em;
+  color: #666;
+  margin: 0;
+}
+.col .reservation div .num {
+  font-size: 24px;
+  color: #8e6d45;
+  font-family: "Barlow Condensed", sans-serif;
+  letter-spacing: 1px;
+  margin: 0;
+}
+.col {
+  padding: 0;
+}
+.col .imgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 30px;
+}
+.col img {
+  width: 255px;
+  height: 340px;
+}
+.col .firstImg {
+  margin-top: 8rem;
+}
+@media only screen and (max-width: 981px) {
+  /* .col img {
+    width: 150.2px;
+    height: 280.6px;
+    z-index: 1;
+  } */
+  .row {
+    gap: 1rem;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .col img {
+    width: 180.2px;
+    height: 218.6px;
+  }
+  .col .firstImg {
+    margin-top: 3rem;
+  }
+  .col .imgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0px;
+  }
+}
+@media only screen and (max-width: 820px) {
+  .col img {
+    width: 150.2px;
+    height: 198.6px;
+  }
+}
+@media only screen and (max-width: 280px) {
+  .col img {
+    width: 110.2px;
+    height: 144.6px;
+  }
+}
+@media only screen and (max-width: 1060px) {
+  .col img {
+    width: 190.2px;
+    height: 278.6px;
+  }
+}

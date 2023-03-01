@@ -1,0 +1,112 @@
+.profileCard {
+  /* box-shadow: 7px 10px 20px rgb(0 0 0 / 10%); */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.profileSec {
+  background: rgb(121, 101, 9);
+  background: linear-gradient(
+    90deg,
+    rgba(121, 101, 9, 1) 9%,
+    rgba(37, 103, 98, 1) 90%
+  );
+}
+.profileSec .Link {
+  text-decoration: none;
+  color: white;
+  font-family: "Gilda Display", serif;
+}
+.profileSec .userName {
+  font-family: "Gilda Display", serif;
+  line-height: 1.25em;
+  color: #000000;
+  font-size: 25px;
+}
+.profileSec .Link:hover {
+  color: white;
+}
+.profileSec .reservationTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0rem 1rem;
+}
+.profileSec .reservationTitle h4 {
+  color: black;
+  font-family: "Gilda Display", serif;
+  line-height: 1.25em;
+  color: #000000;
+  font-size: 25px;
+}
+.profileSec .rowTitle {
+  font-family: "Gilda Display", serif;
+  line-height: 1.25em;
+  color: #000000;
+  font-size: 20px;
+}
+.profileSec thead .headingTable th {
+  color: black;
+  font-family: "Gilda Display", serif;
+  line-height: 1.25em;
+  color: #000000;
+  font-size: 22px;
+}
+
+.profileSec tbody tr td {
+  font-family: "Gilda Display", serif;
+  line-height: 1.25em;
+  color: #000000;
+  font-size: 20px;
+}
+.profileSec .noOrderDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+}
+.profileSec .noOrderDiv h2 {
+  color: black;
+  font-family: "Gilda Display", serif;
+  line-height: 1.25em;
+  color: #e70000;
+  font-size: 30px;
+  font-weight: 500;
+}
+.profileSec .noOrderDiv .iconn {
+  color: black;
+  font-family: "Gilda Display", serif;
+  line-height: 1.25em;
+  color: #e70000;
+  font-size: 5rem;
+}
+.profileSec .backToHomeBtn {
+  background-color: blue;
+  border-radius: 0.4rem;
+  border: 0;
+  padding: 0.5rem 1rem;
+  font-size: 20px;
+  font-family: "Gilda Display", serif;
+  transition: 0.4s ease;
+}
+.profileSec .backToHomeBtn:hover {
+  background-color: rgb(22, 22, 147);
+  color: white;
+}
+.profileSec .logOutBtn {
+  background-color: #ad855b;
+  border-radius: 0.4rem;
+  border: 0;
+  padding: 0.5rem 1rem;
+  font-size: 20px;
+  font-family: "Gilda Display", serif;
+  color: white;
+  transition: 0.4s ease;
+}
+.profileSec .logOutBtn:hover {
+  background-color: rgb(165, 68, 32);
+  color: white;
+}
