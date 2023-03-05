@@ -30,6 +30,7 @@ function AdminPanelRoomDetails() {
           <h4>Room Name: {roomForDetails?.name}</h4>
           <h4>Room Price: {roomForDetails?.price}</h4>
           <h4>Room Type: "{roomForDetails?.type}"</h4>
+          <h4>Room Count: "{roomForDetails?.count}"</h4>
           <button className="backToTableBtn">
             <Link to={"/adminPanel/roomList"} className="Linkk">
               Back to table

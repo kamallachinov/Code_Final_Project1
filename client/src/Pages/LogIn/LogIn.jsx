@@ -9,13 +9,43 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import axios from "axios";
 function LogIn() {
   const [credentials, setCredentials] = useState({
-    username: undefined,
-    password: undefined,
+    username: "",
+    password: "",
   });
 
-
-
   const { loading, error, dispatch } = useContext(AuthContext);
+
+  const handleClick = async (e) => {
+    e.preventDefault();
+    const api = "http://localhost:2000/auth/logIn";
+
+    const headers = {
+      "Content-Type": "application/json",
+    };
+    dispatch({ type: "LOGIN_START" });
+    try {
+      const response = await axios.post(api, credentials, { headers });
+
+      loginSuccessHandler(response.data);
+      navigate("/");
+      window.location.reload();
+    } catch (error) {
+      const errorMsg = error.response
+        ? error.response.data.message
+        : "Something went wrong!";
+      loginFailureHandler(errorMsg);
+      alert(errorMsg);
+    }
+  };
+
+  const loginSuccessHandler = (data) => {
+    dispatch({ type: "LOGIN_SUCCESS", payload: data });
+    setCredentials({ username: "", password: "" });
+  };
+
+  const loginFailureHandler = (errorMsg) => {
+    dispatch({ type: "LOGIN_FAILURE", payload: errorMsg });
+  };
 
   const handleChange = (e) => {
     setCredentials((prev) => ({
@@ -26,34 +56,22 @@ function LogIn() {
 
   const navigate = useNavigate();
 
-  const variants = [
-    "primary",
-    "secondary",
-    "success",
-    "danger",
-    "warning",
-    "info",
-    "light",
-    "dark",
-  ];
-
-  const handleClick = async (e) => {
-    e.preventDefault();
-    dispatch({ type: "LOGIN_START" });
-    try {
-      console.log(credentials);
-      const response = await axios.post(
-        "http://localhost:2000/auth/logIn",
-        credentials
-      );
-      dispatch({ type: "LOGIN_SUCCESS", payload: response.data });
-      navigate("/");
-      window.location.reload();
-    } catch (err) {
-      dispatch({ type: "LOGIN_FAILURE", payload: err.response.data.message });
-      alert(err.response.data.message);
-    }
-  };
+  //   dispatch({ type: "LOGIN_START" });
+  //   try {
+  //     console.log(credentials);
+  //     const response = await axios.post(
+  //       "http://localhost:2000/auth/logIn",
+  //       credentials
+  //     );
+  //     dispatch({ type: "LOGIN_SUCCESS", payload: response.data });
+  //     setCredentials({ username: "", password: "" });
+  //     navigate("/");
+  //     window.location.reload();
+  //   } catch (err) {
+  //     dispatch({ type: "LOGIN_FAILURE", payload: err.response.data.message });
+  //     alert(err.response.data.message);
+  //   }
+  // };
   return (
     <>
       <Navbar />
@@ -64,6 +82,7 @@ function LogIn() {
             <label htmlFor="username">Username</label>
             <input
               id="username"
+              // value={credentials.username}
               type="text"
               placeholder="Username"
               onChange={handleChange}
@@ -73,6 +92,7 @@ function LogIn() {
             <input
               id="password"
               type="password"
+              // value={credentials.password}
               placeholder="Password..."
               onChange={handleChange}
             />

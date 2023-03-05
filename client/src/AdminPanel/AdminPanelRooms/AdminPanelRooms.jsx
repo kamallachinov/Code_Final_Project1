@@ -238,6 +238,7 @@ function Room() {
               <th>Room Name</th>
               <th>Room Price</th>
               <th>Room Type</th>
+              <th>Room Count</th>
               <th>Actions</th>
             </tr>
           </thead>
@@ -253,6 +254,7 @@ function Room() {
                   <td>{room?.name}</td>
                   <td>{room?.price}</td>
                   <td>{room?.type}</td>
+                  <td>{room?.count}</td>
                   <td>
                     <div className="actionsContainer">
                       <button

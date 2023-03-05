@@ -38,6 +38,8 @@ function BookingPage() {
     return parseFloat(query().get("totalCost"));
   }, []);
 
+  const user = localStorage.getItem("user");
+  console.log(user);
   useEffect(() => {
     fetch(`http://localhost:2000/rooms/${supId}`)
       .then((response) => response.json())
@@ -63,16 +65,20 @@ function BookingPage() {
       setLoading(false);
     }, 1500);
   }, []);
-
   let userReserv = JSON.parse(localStorage.getItem("user"));
   const handleClick = (id) => {
-    const obj = {
-      userId: userReserv._id,
-      roomId: id,
-    };
-    console.log(obj);
-    axios.post("http://localhost:2000/order", obj);
-    setShow(true);
+    if (user == null) {
+      alert("Please log in,then try again.")
+      navigate("/logIn");
+    } else {
+      const obj = {
+        userId: userReserv._id,
+        roomId: id,
+      };
+      console.log(obj);
+      axios.post("http://localhost:2000/order", obj);
+      setShow(true);
+    }
   };
   const handlePay = () => {
     if (
