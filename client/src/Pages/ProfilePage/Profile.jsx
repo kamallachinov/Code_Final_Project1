@@ -28,7 +28,6 @@ function Profile() {
       .then((data) => setMyOrder(data.data));
   }, []);
 
-
   const cancelReservation = async (id) => {
     let orders = myOrder.filter((order) => order._id !== id);
     setMyOrder(orders);
@@ -111,7 +110,7 @@ function Profile() {
                       </MDBCol>
                       <MDBCol sm="9">
                         <MDBCardText className="text-muted">
-                          {user.name}
+                          {user?.name}
                         </MDBCardText>
                       </MDBCol>
                     </MDBRow>
@@ -123,7 +122,7 @@ function Profile() {
                       </MDBCol>
                       <MDBCol sm="9">
                         <MDBCardText className="text-muted">
-                          {user.surname}
+                          {user?.surname}
                         </MDBCardText>
                       </MDBCol>
                     </MDBRow>
@@ -136,7 +135,7 @@ function Profile() {
                       </MDBCol>
                       <MDBCol sm="9">
                         <MDBCardText className="text-muted">
-                          {user.updatedAt}
+                          {user?.updatedAt}
                         </MDBCardText>
                       </MDBCol>
                     </MDBRow>
@@ -163,11 +162,11 @@ function Profile() {
                           </thead>
                           <tbody>
                             {myOrder.map((orderDetails) => (
-                              <tr key={orderDetails._id}>
+                              <tr key={orderDetails?._id}>
                                 <th>1</th>
-                                <td>{orderDetails.createdAt}</td>
-                                <td>{orderDetails.room.name}</td>
-                                <td>{orderDetails.room.price}</td>
+                                <td>{orderDetails?.createdAt}</td>
+                                <td>{orderDetails?.room.name}</td>
+                                <td>{orderDetails?.room.price}</td>
                                 <td>
                                   <button
                                     onClick={() =>
