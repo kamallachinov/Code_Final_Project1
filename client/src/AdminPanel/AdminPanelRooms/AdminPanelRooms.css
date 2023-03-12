@@ -10,7 +10,7 @@
     rgba(1, 84, 117, 1) 26%,
     rgba(35, 52, 102, 1) 62%
   );
-  height: 100%;
+  height: auto;
 }
 .someActionsContainerDiv {
   display: flex;
