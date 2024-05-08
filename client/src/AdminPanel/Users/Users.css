@@ -50,7 +50,8 @@ th {
 .tableContainerDivforAdminPanel .actionsContainer {
   display: flex;
   justify-content: center;
-  align-items: start;
+  align-items: flex-start;
+
   gap: 10px;
 }
 .tableContainerDivforAdminPanel .actionsContainer .deleteBtn {

@@ -23,13 +23,13 @@ function Details() {
     axios
       .get(`http://localhost:2000/users/${userId}`)
       .then((data) => setUserDetailed(data.data));
-  }, []);
+  }, [userId]);
 
   useEffect(() => {
     axios
       .get(`http://localhost:2000/order/user_orders/${userId}`)
-      .then((data) => setReservedRoomDetails(data.data));
-  }, []);
+      .then((data) => setReservedRoomDetails(data?.data));
+  }, [userId]);
 
   return (
     <div className="detailsPageContainerForAdminPanel">

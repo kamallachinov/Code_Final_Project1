@@ -19,7 +19,8 @@
 .ServicesSec .col .infoo {
   display: flex;
   justify-content: center;
-  align-items: start;
+  align-items: flex-start;
+
   text-align: start;
   flex-direction: column;
   padding: 3rem 3rem;
@@ -101,7 +102,8 @@
 .ServicesSec .ServicesSecrowwww .col .infoo {
   display: flex;
   justify-content: center;
-  align-items: start;
+    align-items: flex-start;
+
   text-align: start;
   flex-direction: column;
   padding: 3rem 3rem;

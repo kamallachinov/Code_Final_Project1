@@ -26,7 +26,7 @@ function Profile() {
     axios
       .get(`http://localhost:2000/order/user_orders/${user?._id}`)
       .then((data) => setMyOrder(data.data));
-  }, []);
+  }, [user?._id]);
 
   const cancelReservation = async (id) => {
     let orders = myOrder.filter((order) => order._id !== id);

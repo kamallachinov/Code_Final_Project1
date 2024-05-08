@@ -4,22 +4,13 @@ import Col from "react-bootstrap/Col";
 import image from "../../Assets/img/Restaurant.jpg";
 import image2 from "../../Assets/img/Restaurant2.jpg";
 import image3 from "../../Assets/img/Restaurant3.jpg";
-import image4 from "../../Assets/img/Restaurant4.jpg";
-import { styled } from "@mui/material/styles";
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
-import Paper from "@mui/material/Paper";
 import Box from "@mui/material/Box";
 import Fade from "react-reveal/Fade";
 import "./Services.css";
 function Services() {
-  const Item = styled(Paper)(({ theme }) => ({
-    backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
-    ...theme.typography.body2,
-    padding: theme.spacing(1),
-    textAlign: "center",
-    color: theme.palette.text.secondary,
-  }));
+  
   return (
     <>
       <section className="ServicesSec">
@@ -35,7 +26,7 @@ function Services() {
                 <Fade left delay={400}>
                   <Col className="col">
                     <div>
-                      <img src={image} className="image" />
+                      <img src={image} className="image" alt=""/>
                     </div>
                   </Col>
                 </Fade>
@@ -82,7 +73,7 @@ function Services() {
                 <Fade right delay={700}>
                   <Col className="col">
                     <div>
-                      <img src={image2} className="image" />
+                      <img src={image2} className="image" alt=""/>
                     </div>
                   </Col>
                 </Fade>
@@ -91,7 +82,7 @@ function Services() {
                 <Fade left delay={800}>
                   <Col className="col">
                     <div>
-                      <img src={image3} className="image" />
+                      <img src={image3} className="image" alt=""/>
                     </div>
                   </Col>
                 </Fade>
@@ -138,7 +129,7 @@ function Services() {
                 <Fade right delay={1000}>
                   <Col className="col">
                     <div>
-                      <img src={image3} className="image" />
+                      <img src={image3} className="image" alt=""/>
                     </div>
                   </Col>
                 </Fade>

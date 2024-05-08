@@ -32,13 +32,13 @@ function Restaurant() {
             className="carousel"
           >
             <div>
-              <img src={restaurantImg2} />
+              <img src={restaurantImg2} alt=""/>
             </div>
             <div>
-              <img src={restaurantImg1} />
+              <img src={restaurantImg1} alt=""/>
             </div>
             <div>
-              <img src={restaurantImg3} />
+              <img src={restaurantImg3} alt=""/>
             </div>
           </Carousel>
           <div>

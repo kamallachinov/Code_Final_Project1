@@ -75,7 +75,7 @@
   flex-direction: column;
   text-align: center;
   justify-content: start;
-  align-items: start;
+  align-items: flex-start;
 }
 .ReservationFormSec .textHeader h6 {
   font-size: 15px;

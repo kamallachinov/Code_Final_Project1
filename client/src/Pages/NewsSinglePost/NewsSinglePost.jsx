@@ -8,9 +8,7 @@ import image4 from "../../Assets/img/restaurantcarousel1.jpg";
 import image5 from "../../Assets/img/teamMember5.jpg";
 import image6 from "../../Assets/img/spaPage1.jpg";
 import image7 from "../../Assets/img/retroImg.jpg";
-import { styled } from "@mui/material/styles";
 import Grid from "@mui/material/Grid";
-import Paper from "@mui/material/Paper";
 import Box from "@mui/material/Box";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
@@ -20,13 +18,6 @@ import { BiSearchAlt2 } from "react-icons/bi";
 import { BsArrowRight } from "react-icons/bs";
 import Loading from "../../Loading/Loading";
 function NewsSinglePost() {
-  const Item = styled(Paper)(({ theme }) => ({
-    backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
-    ...theme.typography.body2,
-    padding: theme.spacing(1),
-    textAlign: "center",
-    color: theme.palette.text.secondary,
-  }));
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {

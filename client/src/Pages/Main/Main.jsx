@@ -1,6 +1,5 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import AboutPage from "../AboutPage/AboutPage";
 import ExtraServices from "../ExtraServices/ExtraServices";
 import Header from "../Header/Header";
 import HotelFacilities from "../HotelFacilities/HotelFacilities";

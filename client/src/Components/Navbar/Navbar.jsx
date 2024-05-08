@@ -11,7 +11,7 @@ import Divider from "@mui/material/Divider";
 import Fade from "@mui/material/Fade";
 
 import Button from "@mui/material/Button";
-import { Link, NavLink, useNavigate } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "./Navbar.css";
 import { AuthContext } from "../../Context/AuthContext";
 function Navbar() {
@@ -60,7 +60,6 @@ function Navbar() {
       behavior: "smooth",
     });
   };
-  const navigate = useNavigate();
   const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);
 
@@ -94,7 +93,9 @@ function Navbar() {
             transition: "all 1s",
           }}
         >
-          <img src={navLogo} alt="logo" className="logo" />
+          <Link to={"/"}>
+            <img src={navLogo} alt="logo" className="logo" />
+          </Link>
           <input type={"checkbox"} id="toggler" />
           <label htmlFor="toggler" id="label">
             <RxHamburgerMenu style={{ color: menuColor }} />

@@ -6,7 +6,7 @@ import { Helmet } from "react-helmet";
 
 function AdminPanel() {
   const user = JSON.parse(localStorage.getItem("user"));
-  console.log(user.isAdmin);
+
   return (
     <>
       <Helmet>

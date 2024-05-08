@@ -9,10 +9,8 @@ import image3 from "../../Assets/img/brand3.png";
 import image4 from "../../Assets/img/brand4.png";
 import image5 from "../../Assets/img/brand5.png";
 import image6 from "../../Assets/img/brand6.png";
-import { styled } from "@mui/material/styles";
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
-import Paper from "@mui/material/Paper";
 import Box from "@mui/material/Box";
 import Col from "react-bootstrap/Col";
 import * as Yup from "yup";
@@ -41,13 +39,7 @@ function ReservationForm() {
       resetForm();
     },
   });
-  const Item = styled(Paper)(({ theme }) => ({
-    backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
-    ...theme.typography.body2,
-    padding: theme.spacing(1),
-    textAlign: "center",
-    color: theme.palette.text.secondary,
-  }));
+ 
   return (
     <>
       <section className="ReservationFormSec">
@@ -135,12 +127,12 @@ function ReservationForm() {
       <div className="brands">
         <Col className="col">
           <div className="brandDiv" data-aos="fade-right">
-            <img src={image1} />
-            <img src={image2} />
-            <img src={image3} />
-            <img src={image4} />
-            <img src={image5} />
-            <img src={image6} />
+            <img src={image1} alt=""/>
+            <img src={image2} alt=""/>
+            <img src={image3} alt=""/>
+            <img src={image4} alt=""/>
+            <img src={image5} alt=""/>
+            <img src={image6} alt=""/>
           </div>
         </Col>
       </div>

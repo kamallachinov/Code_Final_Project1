@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext } from "react";
+import React, { useState, useEffect } from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import "./RoomDetails.css";
@@ -20,9 +20,7 @@ import { GiClockwork, GiEvilTower } from "react-icons/gi";
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import { useNavigate, useParams } from "react-router-dom";
-import { styled } from "@mui/material/styles";
 import Grid from "@mui/material/Grid";
-import Paper from "@mui/material/Paper";
 import Box from "@mui/material/Box";
 import Loading from "../../Loading/Loading";
 import Modal from "react-bootstrap/Modal";
@@ -33,28 +31,16 @@ function RoomDetails() {
   const { supId } = useParams(); 
   const [loading, setLoading] = useState(false);
   const [show, setShow] = useState(false);
-  const [personName, setPersonName] = useState([]);
   const [numberOfAdults, setNumberOfAdults] = useState(1);
   const [numberOfChildren, setNumberOfChildren] = useState(0);
-  const [numberOfDays, setNumberOfDays] = useState(1);
   const [numberOfDogs, setNumberOfDogs] = useState(1);
 
   useEffect(() => {
     fetch(`http://localhost:2000/rooms/${supId}`)
       .then((response) => response.json())
       .then((data) => setDetails(data));
-  }, []);
+  }, [supId]);
 
-  const ITEM_HEIGHT = 48;
-  const ITEM_PADDING_TOP = 8;
-  const MenuProps = {
-    PaperProps: {
-      style: {
-        maxHeight: ITEM_HEIGHT * 4.5 + ITEM_PADDING_TOP,
-        width: 250,
-      },
-    },
-  };
 
   const navigate = useNavigate();
 
@@ -66,13 +52,13 @@ function RoomDetails() {
   const withoutSale =
     numberOfAdults * adultCost +
     numberOfChildren * childCost +
-    numberOfDays * roomCost +
+    1 * roomCost +
     numberOfDogs * dogCost +
     30;
   const totalCost =
     numberOfAdults * adultCost +
     numberOfChildren * childCost +
-    numberOfDays * roomCost +
+    1 * roomCost +
     numberOfDogs * dogCost;
 
   useEffect(() => {
@@ -84,13 +70,7 @@ function RoomDetails() {
     }, 1500);
   }, []);
 
-  const Item = styled(Paper)(({ theme }) => ({
-    backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
-    ...theme.typography.body2,
-    padding: theme.spacing(1),
-    textAlign: "center",
-    color: theme.palette.text.secondary,
-  }));
+
 
   const handleClose = () => setShow(false);
   const handleShow = () => {

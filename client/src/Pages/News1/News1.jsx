@@ -10,9 +10,7 @@ import image4 from "../../Assets/img/carusel4.jpg";
 import image5 from "../../Assets/img/carusel5.jpg";
 import image6 from "../../Assets/img/carusel6.jpg";
 import Grid from "@mui/material/Grid";
-import Paper from "@mui/material/Paper";
 import Box from "@mui/material/Box";
-import { styled } from "@mui/material/styles";
 import ReservationForm from "../ReservationForm/ReservationForm";
 function News1() {
   const [loading, setLoading] = useState(false);
@@ -23,13 +21,7 @@ function News1() {
     }, 1500);
   }, []);
 
-  const Item = styled(Paper)(({ theme }) => ({
-    backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
-    ...theme.typography.body2,
-    padding: theme.spacing(1),
-    textAlign: "center",
-    color: theme.palette.text.secondary,
-  }));
+
   return (
     <>
       {loading ? (
@@ -57,7 +49,7 @@ function News1() {
                   <Grid item xs={12} sm={12} md={6} lg={4}>
                     <Col>
                       <div className="item">
-                        <img src={image1} />
+                        <img src={image1} alt=""/>
                         <div className="date">
                           <span>Dec</span>
                           <i>02</i>
@@ -72,7 +64,7 @@ function News1() {
                   <Grid item xs={12} sm={12} md={6} lg={4}>
                     <Col>
                       <div className="item">
-                        <img src={image2} />
+                        <img src={image2} alt=""/>
                         <div className="date">
                           <span>Dec</span>
                           <i>04</i>
@@ -87,7 +79,7 @@ function News1() {
                   <Grid item xs={12} sm={12} md={6} lg={4}>
                     <Col>
                       <div className="item">
-                        <img src={image3} />
+                        <img src={image3} alt=""/>
                         <div className="date">
                           <span>Dec</span>
                           <i>06</i>
@@ -102,7 +94,7 @@ function News1() {
                   <Grid item xs={12} sm={12} md={6} lg={4}>
                     <Col>
                       <div className="item">
-                        <img src={image4} />
+                        <img src={image4} alt=""/>
                         <div className="date">
                           <span>Dec</span>
                           <i>08</i>
@@ -117,7 +109,7 @@ function News1() {
                   <Grid item xs={12} sm={12} md={6} lg={4}>
                     <Col>
                       <div className="item">
-                        <img src={image5} />
+                        <img src={image5} alt=""/>
                         <div className="date">
                           <span>Dec</span>
                           <i>10</i>
@@ -132,7 +124,7 @@ function News1() {
                   <Grid item xs={12} sm={12} md={6} lg={4}>
                     <Col>
                       <div className="item">
-                        <img src={image6} />
+                        <img src={image6} alt=""/>
                         <div className="date">
                           <span>Dec</span>
                           <i>12</i>

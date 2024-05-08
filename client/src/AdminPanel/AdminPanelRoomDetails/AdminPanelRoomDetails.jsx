@@ -14,7 +14,7 @@ function AdminPanelRoomDetails() {
 
   useEffect(() => {
     getRoomData();
-  }, []);
+  }, [roomId]);
 
   return (
     <div className="RoomDetailsPageForAdminPanel">

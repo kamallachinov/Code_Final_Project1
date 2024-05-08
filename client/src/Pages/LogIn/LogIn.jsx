@@ -1,8 +1,6 @@
-import React, { useState, useEffect, useContext } from "react";
+import React, { useState, useContext } from "react";
 import "./LogIn.css";
 import Navbar from "../../Components/Navbar/Navbar";
-import { Formik } from "formik";
-import * as Yup from "yup";
 import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Context/AuthContext";
 import "bootstrap/dist/css/bootstrap.min.css";

@@ -67,7 +67,7 @@ function Users() {
             <tbody>
               {users
                 .filter((item) =>
-                  input == ""
+                  input === ""
                     ? users
                     : item.username.toLowerCase().includes(input.toLowerCase())
                 )
@@ -76,7 +76,7 @@ function Users() {
                     <td>{user?.username}</td>
                     <td>{user?.email}</td>
                     <td>{user?.createdAt}</td>
-                    <td>{user.isAdmin == true ? "Admin" : "User"}</td>
+                    <td>{user?.isAdmin === true ? "Admin" : "User"}</td>
                     <td>
                       <div className="actionsContainer">
                         <button

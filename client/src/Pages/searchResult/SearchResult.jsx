@@ -3,33 +3,25 @@ import "./searchResult.css";
 import { styled } from "@mui/material/styles";
 import Grid from "@mui/material/Grid";
 import Paper from "@mui/material/Paper";
-import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
-import TextField from "@mui/material/TextField";
-import { LocalizationProvider } from "@mui/x-date-pickers-pro";
-import { AdapterDayjs } from "@mui/x-date-pickers-pro/AdapterDayjs";
-import { DateRangePicker } from "@mui/x-date-pickers-pro/DateRangePicker";
-import Box from "@mui/material/Box";
-import image from "../../Assets/img/3.jpg";
 import Loading from "../../Loading/Loading";
-import useFetch from "../../hooks/useFetch";
+import Box from "@mui/material/Box";
 import Reveal from "react-reveal/Reveal";
-
-import { useNavigate, useParams, useSearchParams } from "react-router-dom";
 import axios from "axios";
 
-function SearchResult() {
-  const [searchParams, setSearchParams] = useSearchParams();
+import { useNavigate, useSearchParams } from "react-router-dom";
 
-  const { supId } = useParams();
+function SearchResult() {
+  const [searchParams, ] = useSearchParams();
 
   const [min, setMin] = useState(searchParams.get("min"));
   const [max, setMax] = useState(searchParams.get("max"));
   const [filtered, setFiltered] = useState([]);
 
   const [prods, setProds] = useState([]);
-  const [result, setResult] = useState([]);
-  const [value, setValue] = React.useState([null, null]);
+  const [loadingg, setLoading] = useState(false);
+  const [isFixed, setIsFixed] = useState(false);
+
   const Item = styled(Paper)(({ theme }) => ({
     backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
     ...theme.typography.body2,
@@ -40,10 +32,6 @@ function SearchResult() {
 
   const navigate = useNavigate();
 
-  function getWeeksAfter(date, amount) {
-    return date ? date.add(amount, "week") : undefined;
-  }
-  const [loadingg, setLoading] = useState(false);
   useEffect(() => {
     setLoading(true);
     window.scrollTo({ top: 0 });
@@ -53,11 +41,8 @@ function SearchResult() {
     }, 1500);
   }, []);
 
-  const [isFixed, setIsFixed] = useState(false);
-
   useEffect(() => {
     setFiltered(prods.filter((x) => x.price > min && x.price < max));
-    console.log(filtered);
   }, [min, max, prods]);
 
   useEffect(() => {
@@ -81,7 +66,6 @@ function SearchResult() {
   }, []);
 
   const fixedClass = isFixed ? "fixed" : "searchColContainer";
-  // const { data, loading, error, refetch } = useFetch(``);
   return (
     <>
       {loadingg ? (

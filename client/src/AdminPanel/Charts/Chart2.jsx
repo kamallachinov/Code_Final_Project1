@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from "react";
-import ReactDOM from "react-dom";
+import React from "react";
 import { Pie, G2 } from "@ant-design/plots";
 const DemoPie = () => {
   const G = G2.getEngine("canvas");
@@ -9,8 +8,8 @@ const DemoPie = () => {
       sold: 0.45,
     },
     {
-      sex: "female",
-      sold: 0.55,
+    sex: "female",
+    sold: 0.55,
     },
   ];
   const config = {

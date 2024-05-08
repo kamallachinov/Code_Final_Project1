@@ -3,8 +3,7 @@ import axios from "axios";
 import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
-import { Form, Input, Label } from "reactstrap";
-import Button from "@mui/material/Button";
+import { Input } from "reactstrap";
 import "./AdminPanelRoomEdit.css";
 
 function AdminPanelRoomEdit() {
@@ -23,7 +22,7 @@ function AdminPanelRoomEdit() {
       setPrice(res.data?.price ?? "");
       setRoomForEdit(res.data);
     });
-  }, []);
+  }, [roomId]);
 
   const obj = {
     imgUrl: imgUrl,
@@ -33,7 +32,7 @@ function AdminPanelRoomEdit() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (imgUrl == "" && name == "" && price == "") {
+    if (imgUrl === "" && name === "" && price === "") {
       alert("Fill the inputs!");
     } else {
       axios
@@ -50,7 +49,6 @@ function AdminPanelRoomEdit() {
       );
     }
   };
-
 
   return (
     <>

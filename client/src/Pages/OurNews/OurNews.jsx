@@ -58,7 +58,7 @@ function OurNews() {
               arrows={true}
             >
               <div className="item">
-                <img src={image1} />
+                <img src={image1} alt=""/>
                 <div className="date">
                   <span>Dec</span>
                   <i>02</i>
@@ -69,7 +69,7 @@ function OurNews() {
                 </div>
               </div>
               <div className="item">
-                <img src={image2} />
+                <img src={image2} alt=""/>
                 <div className="date">
                   <span>Dec</span>
                   <i>04</i>
@@ -80,7 +80,7 @@ function OurNews() {
                 </div>
               </div>
               <div className="item">
-                <img src={image3} />
+                <img src={image3} alt=""/>
                 <div className="date">
                   <span>Dec</span>
                   <i>06</i>
@@ -91,7 +91,7 @@ function OurNews() {
                 </div>
               </div>
               <div className="item">
-                <img src={image4} />
+                <img src={image4} alt=""/>
                 <div className="date">
                   <span>Dec</span>
                   <i>08</i>
@@ -102,7 +102,7 @@ function OurNews() {
                 </div>
               </div>
               <div className="item">
-                <img src={image5} />
+                <img src={image5} alt=""/>
                 <div className="date">
                   <span>Dec</span>
                   <i>10</i>
@@ -113,7 +113,7 @@ function OurNews() {
                 </div>
               </div>
               <div className="item">
-                <img src={image6} />
+                <img src={image6} alt=""/>
                 <div className="date">
                   <span>Dec</span>
                   <i>12</i>

@@ -55,7 +55,6 @@ function PagesFaqs() {
                         sx={{
                           width: "100%",
                           flexShrink: 0,
-                          fontSize: "25px",
                           fontFamily: "Gilda Display",
                           fontSize: "20px",
                           lineHeight: "27px",
@@ -99,7 +98,6 @@ function PagesFaqs() {
                         sx={{
                           width: "100%",
                           flexShrink: 0,
-                          fontSize: "25px",
                           fontFamily: "Gilda Display",
                           fontSize: "20px",
                           lineHeight: "27px",
@@ -143,7 +141,6 @@ function PagesFaqs() {
                         sx={{
                           width: "100%",
                           flexShrink: 0,
-                          fontSize: "25px",
                           fontFamily: "Gilda Display",
                           fontSize: "20px",
                           lineHeight: "27px",
@@ -187,7 +184,6 @@ function PagesFaqs() {
                         sx={{
                           width: "100%",
                           flexShrink: 0,
-                          fontSize: "25px",
                           fontFamily: "Gilda Display",
                           fontSize: "20px",
                           lineHeight: "27px",
@@ -231,7 +227,6 @@ function PagesFaqs() {
                         sx={{
                           width: "100%",
                           flexShrink: 0,
-                          fontSize: "25px",
                           fontFamily: "Gilda Display",
                           fontSize: "20px",
                           lineHeight: "27px",
@@ -275,7 +270,6 @@ function PagesFaqs() {
                         sx={{
                           width: "100%",
                           flexShrink: 0,
-                          fontSize: "25px",
                           fontFamily: "Gilda Display",
                           fontSize: "20px",
                           lineHeight: "27px",
@@ -319,7 +313,6 @@ function PagesFaqs() {
                         sx={{
                           width: "100%",
                           flexShrink: 0,
-                          fontSize: "25px",
                           fontFamily: "Gilda Display",
                           fontSize: "20px",
                           lineHeight: "27px",

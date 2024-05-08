@@ -1,11 +1,8 @@
-import React, { useState, useEffect, useContext, useMemo } from "react";
+import React, { useState, useEffect,  useMemo } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
-import Dropdown from "react-bootstrap/Dropdown";
-import { styled } from "@mui/material/styles";
 import Box from "@mui/material/Box";
-import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
 import { TiArrowRightOutline, TiArrowLeftOutline } from "react-icons/ti";
 import { BsMoonStars, BsPeople } from "react-icons/bs";
@@ -17,7 +14,7 @@ import "react-credit-cards/es/styles-compiled.css";
 import Loading from "../../Loading/Loading";
 import axios from "axios";
 import Modal from "react-bootstrap/Modal";
-import { ToastContainer, toast } from "react-toastify";
+import { ToastContainer} from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 const query = () => {
   return new URLSearchParams(new URL(window.location).search);
@@ -39,22 +36,14 @@ function BookingPage() {
   }, []);
 
   const user = localStorage.getItem("user");
-  console.log(user);
+
   useEffect(() => {
     fetch(`http://localhost:2000/rooms/${supId}`)
       .then((response) => response.json())
       .then((data) => setbookingDetails(data));
-  }, []);
+  }, [supId]);
 
   const navigate = useNavigate();
-
-  const Item = styled(Paper)(({ theme }) => ({
-    backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
-    ...theme.typography.body2,
-    padding: theme.spacing(1),
-    textAlign: "center",
-    color: theme.palette.text.secondary,
-  }));
 
   const [loadingg, setLoading] = useState(false);
   useEffect(() => {
@@ -95,9 +84,7 @@ function BookingPage() {
     }
   };
   const handleClose = () => setShow(false);
-  const handleShow = () => {
-    setShow(true);
-  };
+
   return (
     <>
       {loadingg ? (

@@ -77,7 +77,7 @@ function ExtraServices() {
                 arrows={false}
               >
                 <div className="element">
-                  <img src={image3} />
+                  <img src={image3} alt=""/>
                   <div className="desc">
                     <div className="name">Room cleaning</div>
                     <div className="amount">
@@ -98,7 +98,7 @@ function ExtraServices() {
                   </div>
                 </div>
                 <div className="element">
-                  <img src={image4} />
+                  <img src={image4} alt=""/>
                   <div className="desc">
                     <div className="name">Drinks Included</div>
                     <div className="amount">
@@ -119,7 +119,7 @@ function ExtraServices() {
                   </div>
                 </div>
                 <div className="element">
-                  <img src={image1} />
+                  <img src={image1} alt=""/>
                   <div className="desc">
                     <div className="name">Room Breakfast</div>
                     <div className="amount">
@@ -140,7 +140,7 @@ function ExtraServices() {
                   </div>
                 </div>
                 <div className="element">
-                  <img src={image2} />
+                  <img src={image2} alt=""/>
                   <div className="desc">
                     <div className="name">Safe & Secure</div>
                     <div className="amount">

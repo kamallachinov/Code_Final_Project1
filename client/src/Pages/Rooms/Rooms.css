@@ -57,7 +57,8 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: start;
+  align-items: flex-start;
+
   text-align: start;
   position: absolute;
   box-sizing: border-box;
@@ -99,7 +100,8 @@
   position: absolute;
   display: flex;
   justify-content: center;
-  align-items: start;
+  align-items: flex-start;
+
   text-align: start;
   bottom: 23px;
   left: 10px;

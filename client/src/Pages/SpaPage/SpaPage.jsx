@@ -211,7 +211,6 @@ function SpaPage() {
                       sx={{
                         width: "33%",
                         flexShrink: 0,
-                        fontSize: "25px",
                         fontFamily: "Gilda Display",
                         fontSize: "20px",
                         lineHeight: "27px",
@@ -254,7 +253,6 @@ function SpaPage() {
                       sx={{
                         width: "33%",
                         flexShrink: 0,
-                        fontSize: "25px",
                         fontFamily: "Gilda Display",
                         fontSize: "20px",
                         lineHeight: "27px",
@@ -296,7 +294,6 @@ function SpaPage() {
                       sx={{
                         width: "33%",
                         flexShrink: 0,
-                        fontSize: "25px",
                         fontFamily: "Gilda Display",
                         fontSize: "20px",
                         lineHeight: "27px",
@@ -339,7 +336,6 @@ function SpaPage() {
                       sx={{
                         width: "33%",
                         flexShrink: 0,
-                        fontSize: "25px",
                         fontFamily: "Gilda Display",
                         fontSize: "20px",
                         lineHeight: "27px",
@@ -382,7 +378,6 @@ function SpaPage() {
                       sx={{
                         width: "33%",
                         flexShrink: 0,
-                        fontSize: "25px",
                         fontFamily: "Gilda Display",
                         fontSize: "20px",
                         lineHeight: "27px",
@@ -425,7 +420,6 @@ function SpaPage() {
                       sx={{
                         width: "33%",
                         flexShrink: 0,
-                        fontSize: "25px",
                         fontFamily: "Gilda Display",
                         fontSize: "20px",
                         lineHeight: "27px",
@@ -467,7 +461,6 @@ function SpaPage() {
                       sx={{
                         width: "33%",
                         flexShrink: 0,
-                        fontSize: "25px",
                         fontFamily: "Gilda Display",
                         fontSize: "20px",
                         lineHeight: "27px",

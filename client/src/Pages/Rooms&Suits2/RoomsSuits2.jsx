@@ -17,22 +17,14 @@ import { HiOutlineUserGroup } from "react-icons/hi";
 import { MdOutlineFreeBreakfast } from "react-icons/md";
 import { GiTowel } from "react-icons/gi";
 import { BiBed } from "react-icons/bi";
-import { styled } from "@mui/material/styles";
 import Grid from "@mui/material/Grid";
-import Paper from "@mui/material/Paper";
 import Box from "@mui/material/Box";
 import ExtraServices from "../ExtraServices/ExtraServices";
 import ReservationForm from "../ReservationForm/ReservationForm";
 import Loading from "../../Loading/Loading";
 function RoomsSuits2() {
-  const Item = styled(Paper)(({ theme }) => ({
-    backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
-    ...theme.typography.body2,
-    padding: theme.spacing(1),
-    textAlign: "center",
-    color: theme.palette.text.secondary,
-  }));
   const [loading, setLoading] = useState(false);
+
   useEffect(() => {
     setLoading(true);
     setTimeout(() => {
@@ -80,7 +72,7 @@ function RoomsSuits2() {
                       <div class="flip-card-inner">
                         <div class="flip-card-front">
                           <div className="roomCard">
-                            <img src={image1} />
+                            <img src={image1} alt=""/>
                             <div className="card-header">
                               <Link to={"/rooms"} className="linkk">
                                 Book
@@ -151,7 +143,7 @@ function RoomsSuits2() {
                       <div class="flip-card-inner">
                         <div class="flip-card-front">
                           <div className="roomCard">
-                            <img src={image2} />
+                            <img src={image2} alt=""/>
                             <div className="card-header">
                               <Link to={"/rooms"} className="linkk">
                                 Book
@@ -222,7 +214,7 @@ function RoomsSuits2() {
                       <div class="flip-card-inner">
                         <div class="flip-card-front">
                           <div className="roomCard">
-                            <img src={image3} />
+                            <img src={image3} alt=""/>
                             <div className="card-header">
                               <Link to={"/rooms"} className="linkk">
                                 Book
@@ -305,7 +297,7 @@ function RoomsSuits2() {
                       <div class="flip-card-inner">
                         <div class="flip-card-front">
                           <div className="roomCard">
-                            <img src={image4} />
+                            <img src={image4} alt=""/>
                             <div className="card-header">
                               <Link to={"/rooms"} className="linkk">
                                 Book
@@ -388,7 +380,7 @@ function RoomsSuits2() {
                       <div class="flip-card-inner">
                         <div class="flip-card-front">
                           <div className="roomCard">
-                            <img src={image5} />
+                            <img src={image5} alt=""/>
                             <div className="card-header">
                               <Link to={"/rooms"} className="linkk">
                                 Book
@@ -471,7 +463,7 @@ function RoomsSuits2() {
                       <div class="flip-card-inner">
                         <div class="flip-card-front">
                           <div className="roomCard">
-                            <img src={image6} />
+                            <img src={image6} alt=""/>
                             <div className="card-header">
                               <Link to={"/rooms"} className="linkk">
                                 Book

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -11,7 +11,7 @@ import { GiTowel } from "react-icons/gi";
 import "./Rooms.css";
 import useFetch from "../../hooks/useFetch";
 function Rooms() {
-  const { data, loading, error } = useFetch("http://localhost:2000/rooms");
+  const { data } = useFetch("http://localhost:2000/rooms");
 
   const navigate = useNavigate();
 
@@ -35,7 +35,7 @@ function Rooms() {
               >
                 <Fade bottom>
                   <div className="roomCard">
-                    <img src={room.imgUrl} />
+                    <img src={room.imgUrl} alt=""/>
                     <div className="card-header">
                       <Link to={"/rooms"} className="linkk">
                         Book

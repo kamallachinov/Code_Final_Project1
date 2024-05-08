@@ -1,12 +1,9 @@
 import React, { useState, useEffect } from "react";
 import "./PagesPricing.css";
-import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
+
 import Container from "react-bootstrap/Container";
 import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box";
-import Paper from "@mui/material/Paper";
-import { styled } from "@mui/material/styles";
 import { AiOutlineCheck, AiOutlineClose } from "react-icons/ai";
 import image1 from "../../Assets/img/caruselImg1.jpg";
 import image2 from "../../Assets/img/caruselImg2.jpg";
@@ -18,19 +15,13 @@ import Loading from "../../Loading/Loading";
 function PagesPricing() {
   const [loading, setLoading] = useState(false);
 
-  const Item = styled(Paper)(({ theme }) => ({
-    backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
-    ...theme.typography.body2,
-    padding: theme.spacing(1),
-    textAlign: "center",
-    color: theme.palette.text.secondary,
-  }));
   useEffect(() => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
     }, 1500);
   }, []);
+
   return (
     <>
       {loading ? (
@@ -58,7 +49,7 @@ function PagesPricing() {
                 >
                   <Grid xs={12} sm={12} md={6} lg={4} item={true}>
                     <div className="element">
-                      <img src={image3} />
+                      <img src={image3} alt=""/>
                       <div className="desc">
                         <div className="name">Room cleaning</div>
                         <div className="amount">
@@ -81,7 +72,7 @@ function PagesPricing() {
                   </Grid>
                   <Grid xs={12} sm={12} md={6} lg={4} item={true}>
                     <div className="element">
-                      <img src={image4} />
+                      <img src={image4} alt=""/>
                       <div className="desc">
                         <div className="name">Drinks Included</div>
                         <div className="amount">
@@ -104,7 +95,7 @@ function PagesPricing() {
                   </Grid>
                   <Grid xs={12} sm={12} md={12} lg={4} item={true}>
                     <div className="element">
-                      <img src={image1} />
+                      <img src={image1} alt=""/>
                       <div className="desc">
                         <div className="name">Room Breakfast</div>
                         <div className="amount">
@@ -139,7 +130,7 @@ function PagesPricing() {
                 >
                   <Grid xs={12} sm={12} md={6} lg={4} item={true}>
                     <div className="element">
-                      <img src={image2} />
+                      <img src={image2} alt=""/>
                       <div className="desc">
                         <div className="name">Safe & Secure</div>
                         <div className="amount">
@@ -162,7 +153,7 @@ function PagesPricing() {
                   </Grid>
                   <Grid xs={12} sm={12} md={6} lg={4} item={true}>
                     <div className="element">
-                      <img src={image4} />
+                      <img src={image4} alt=""/>
                       <div className="desc">
                         <div className="name">Drinks Included</div>
                         <div className="amount">
@@ -185,7 +176,7 @@ function PagesPricing() {
                   </Grid>
                   <Grid xs={12} sm={12} md={12} lg={4} item={true}>
                     <div className="element">
-                      <img src={image1} />
+                      <img src={image1} alt=""/>
                       <div className="desc">
                         <div className="name">Room Breakfast</div>
                         <div className="amount">

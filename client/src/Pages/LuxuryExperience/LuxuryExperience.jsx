@@ -50,8 +50,8 @@ function LuxuryExperience() {
           <Col className="col" lg={5} md={4} sm={12}>
             <Reveal effect="fadeInUp">
               <div className="imgContainer">
-                <img src={image} className="firstImg" alt="img" />
-                <img src={image2} alt="image" />
+                <img src={image} className="firstImg" alt="" />
+                <img src={image2} alt="" />
               </div>
             </Reveal>
           </Col>

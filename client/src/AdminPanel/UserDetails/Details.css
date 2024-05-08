@@ -86,7 +86,8 @@ th {
   .actionsContainer {
   display: flex;
   justify-content: start;
-  align-items: start;
+  align-items: flex-start;
+
   gap: 5px;
 }
 .detailsPageContainerForAdminPanel

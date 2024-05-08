@@ -2,8 +2,6 @@ import React from "react";
 import "./SideBar.css";
 import { RiAdminFill } from "react-icons/ri";
 import { IoStatsChartSharp } from "react-icons/io5";
-import { SiGoogleearth } from "react-icons/si";
-import { RiVipDiamondFill } from "react-icons/ri";
 import { HiUsers } from "react-icons/hi";
 import { BiHotel } from "react-icons/bi";
 import { BsFillCalendarDateFill } from "react-icons/bs";

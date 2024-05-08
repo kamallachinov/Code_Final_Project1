@@ -36,7 +36,8 @@
   display: flex;
   justify-content: start;
   text-align: start;
-  align-items: start;
+  align-items: flex-start;
+
   flex-direction: column;
   color: #495057;
   border: 5px solid #ab8a62;
@@ -103,7 +104,8 @@
 .resultContainer .colDiv {
   display: flex;
   justify-content: center;
-  align-items: start;
+  align-items: flex-start;
+
   text-align: start;
   flex-direction: column;
   width: 100%;
@@ -157,7 +159,8 @@
 .resultContainer .colDiv2 {
   display: flex;
   justify-content: center;
-  align-items: start;
+  align-items: flex-start;
+
   text-align: start;
   flex-direction: column;
 }
@@ -286,7 +289,8 @@
     display: flex;
     justify-content: start;
     text-align: start;
-    align-items: start;
+    align-items: flex-start;
+
     flex-direction: column;
     color: #495057;
     width: 510px;

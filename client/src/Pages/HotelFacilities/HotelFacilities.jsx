@@ -5,20 +5,12 @@ import { FaSwimmingPool } from "react-icons/fa";
 import { AiOutlineWifi } from "react-icons/ai";
 import { MdDinnerDining } from "react-icons/md";
 import { IoCarSportOutline, IoBedOutline } from "react-icons/io5";
-import { styled } from "@mui/material/styles";
 import Box from "@mui/material/Box";
-import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
 import "./HotelFacilities.css";
 import Fade from "react-reveal/Fade";
 function HotelFacilities() {
-  const Item = styled(Paper)(({ theme }) => ({
-    backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
-    ...theme.typography.body2,
-    padding: theme.spacing(1),
-    textAlign: "center",
-    color: theme.palette.text.secondary,
-  }));
+  
   return (
     <>
       <section className="HotelFacilitiesSec">
